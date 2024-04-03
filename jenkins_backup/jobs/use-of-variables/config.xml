@@ -1,0 +1,47 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@1400.v7fd111b_ec82f">
+  <actions>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobAction plugin="pipeline-model-definition@2.2184.v0b_358b_953e69"/>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction plugin="pipeline-model-definition@2.2184.v0b_358b_953e69">
+      <jobProperties/>
+      <triggers/>
+      <parameters/>
+      <options/>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction>
+  </actions>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@3889.v937e0b_3412d3">
+    <script>pipeline{
+    environment {
+        FNAME = &quot;RAJU&quot;
+        LNAME = &quot;RAMU&quot;
+    }
+    agent any
+    stages{
+        stage(&quot;calling variables&quot;){
+            steps{
+                 sh &quot;echo hello ${FNAME} ${LNAME}&quot;
+            }
+        }
+        stage(&quot;changing name of FNAME&quot;){
+            environment {
+            FNAME = &quot;PINTO&quot;
+            }       
+            steps{
+                sh &quot;echo ${FNAME} ${LNAME}&quot;
+            }      
+        }
+        stage(&quot;calling names&quot;){
+            steps{
+                sh &quot;echo ${FNAME} ${LNAME}&quot;
+            }
+        }
+    }   
+}    </script>
+    <sandbox>true</sandbox>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>

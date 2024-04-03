@@ -1,0 +1,63 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2024-03-27 08:00:23.466 UTC</timestamp>
+  <md5sum>e8667d3b50b077c940de56a91bbeeef4</md5sum>
+  <fileName>Credential id=github-token2 name=shankargouda1/******</fileName>
+  <usages>
+    <entry>
+      <string>multibranch-project/branch1</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>code-package2</string>
+      <ranges>1-2</ranges>
+    </entry>
+    <entry>
+      <string>codecompile2</string>
+      <ranges>1-2</ranges>
+    </entry>
+    <entry>
+      <string>multibranch-pipeline/master</string>
+      <ranges>1-2</ranges>
+    </entry>
+    <entry>
+      <string>multibranch-pipeline/branch1</string>
+      <ranges>1-2</ranges>
+    </entry>
+    <entry>
+      <string>qa</string>
+      <ranges>1-6</ranges>
+    </entry>
+    <entry>
+      <string>code-testing2</string>
+      <ranges>1-2</ranges>
+    </entry>
+    <entry>
+      <string>qa2</string>
+      <ranges>1-2</ranges>
+    </entry>
+    <entry>
+      <string>Dp-2</string>
+      <ranges>1-5</ranges>
+    </entry>
+    <entry>
+      <string>codecompile</string>
+      <ranges>1-6,10-18</ranges>
+    </entry>
+    <entry>
+      <string>package</string>
+      <ranges>2-6</ranges>
+    </entry>
+    <entry>
+      <string>multibranch-project/master</string>
+      <ranges>1-2</ranges>
+    </entry>
+  </usages>
+  <facets>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@1337.v60b_d7b_c7b_c9f">
+      <timestamp>1712132828168</timestamp>
+      <itemFullName>Dp-2</itemFullName>
+      <timestamp0>1711995730891</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+  </facets>
+</fingerprint>

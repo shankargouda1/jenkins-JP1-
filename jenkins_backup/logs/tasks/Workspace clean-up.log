@@ -1,0 +1,22 @@
+Started at Tue Apr 02 06:12:42 UTC 2024
+Checking code-package2
+Checking code-testing
+Checking code-testing2
+Checking codecompile
+Checking codecompile2
+Checking declarative--pipeline2
+Checking declarative-pipeline
+Checking def_array
+Checking Dp-2
+Checking dp2-array
+Checking multibranch-pipeline
+Checking my-pipeline
+Checking package
+Checking qa
+Checking qa2
+Checking use-of-variables
+Checking my-pipeline » branch1
+Checking my-pipeline » master
+Checking multibranch-pipeline » branch1
+Checking multibranch-pipeline » master
+Finished at Tue Apr 02 06:12:42 UTC 2024. 2ms

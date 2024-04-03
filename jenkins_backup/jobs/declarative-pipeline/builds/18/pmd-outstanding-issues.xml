@@ -1,0 +1,338 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<analysisReport plugin="analysis-model-api@12.1.0">
+  <id>-</id>
+  <name>-</name>
+  <originReportFile>-</originReportFile>
+  <subReports>
+    <analysisReport>
+      <id>pmd</id>
+      <name>PMD</name>
+      <originReportFile>/var/lib/jenkins/workspace/declarative-pipeline/target/pmd.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set">
+        <issue>
+          <category>Error Prone</category>
+          <type>EmptyCatchBlock</type>
+          <severity>NORMAL</severity>
+          <lineStart>89</lineStart>
+          <lineEnd>91</lineEnd>
+          <columnStart>9</columnStart>
+          <columnEnd>11</columnEnd>
+          <lineRanges/>
+          <id>5251f6d8-fa77-4d3b-851a-24826409f54c</id>
+          <reference>18</reference>
+          <origin>pmd</origin>
+          <originName>PMD</originName>
+          <moduleName>Vaadin Addressbook example</moduleName>
+          <packageName>com.edurekademo.tutorial.addressbook</packageName>
+          <pathName>/var/lib/jenkins/workspace/declarative-pipeline</pathName>
+          <fileName>src/main/java/com/edurekademo/tutorial/addressbook/ContactForm.java</fileName>
+          <message>Avoid empty catch blocks.</message>
+          <description></description>
+          <fingerprint>02D01686A4B91EEB1EFD7C8B30810A99</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Code Style</category>
+          <type>UselessParentheses</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>62</lineStart>
+          <lineEnd>62</lineEnd>
+          <columnStart>41</columnStart>
+          <columnEnd>86</columnEnd>
+          <lineRanges/>
+          <id>6bb6bb16-d624-42c5-a48e-bf60c113d992</id>
+          <reference>18</reference>
+          <origin>pmd</origin>
+          <originName>PMD</originName>
+          <moduleName>Vaadin Addressbook example</moduleName>
+          <packageName>com.edurekademo.tutorial.addressbook.backend</packageName>
+          <pathName>/var/lib/jenkins/workspace/declarative-pipeline</pathName>
+          <fileName>src/main/java/com/edurekademo/tutorial/addressbook/backend/ContactService.java</fileName>
+          <message>Useless parentheses.</message>
+          <description></description>
+          <fingerprint>4E60814BF86236F8D1C2BD98872001B6</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Code Style</category>
+          <type>UnnecessaryModifier</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>234</lineStart>
+          <lineEnd>236</lineEnd>
+          <columnStart>2</columnStart>
+          <columnEnd>23</columnEnd>
+          <lineRanges/>
+          <id>f4616ecc-1f7b-4276-8b25-0f8c2a95cefd</id>
+          <reference>18</reference>
+          <origin>pmd</origin>
+          <originName>PMD</originName>
+          <moduleName>Vaadin Addressbook example</moduleName>
+          <packageName>com.edurekademo.utilities</packageName>
+          <pathName>/var/lib/jenkins/workspace/declarative-pipeline</pathName>
+          <fileName>src/main/java/com/edurekademo/utilities/GenericComparator.java</fileName>
+          <message>Unnecessary modifier &apos;final&apos; on method &apos;invoke&apos;: private methods cannot be overridden.</message>
+          <description></description>
+          <fingerprint>D0A8C02F9034FF0AF5FF4F627C810B7B</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Code Style</category>
+          <type>EmptyControlStatement</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>57</lineStart>
+          <lineEnd>58</lineEnd>
+          <columnStart>3</columnStart>
+          <columnEnd>3</columnEnd>
+          <lineRanges/>
+          <id>0314f1fc-850f-40f4-871f-5a3252434cf2</id>
+          <reference>18</reference>
+          <origin>pmd</origin>
+          <originName>PMD</originName>
+          <moduleName>Vaadin Addressbook example</moduleName>
+          <packageName reference="../../issue[3]/packageName"/>
+          <pathName>/var/lib/jenkins/workspace/declarative-pipeline</pathName>
+          <fileName>src/main/java/com/edurekademo/utilities/PropertyHelper.java</fileName>
+          <message>Empty finally clause.</message>
+          <description></description>
+          <fingerprint>799796A71F77E05E914101D22C4549B5</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Code Style</category>
+          <type>EmptyControlStatement</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>82</lineStart>
+          <lineEnd>83</lineEnd>
+          <columnStart>3</columnStart>
+          <columnEnd>3</columnEnd>
+          <lineRanges/>
+          <id>f2107cb3-ca9c-42e8-8112-161157f53fc4</id>
+          <reference>18</reference>
+          <origin>pmd</origin>
+          <originName>PMD</originName>
+          <moduleName>Vaadin Addressbook example</moduleName>
+          <packageName reference="../../issue[3]/packageName"/>
+          <pathName>/var/lib/jenkins/workspace/declarative-pipeline</pathName>
+          <fileName reference="../../issue[4]/fileName"/>
+          <message reference="../../issue[4]/message"/>
+          <description></description>
+          <fingerprint>799796A71F77E05E914101D22C4549B5</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Best Practices</category>
+          <type>UnusedPrivateField</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>39</lineStart>
+          <lineEnd>39</lineEnd>
+          <columnStart>30</columnStart>
+          <columnEnd>32</columnEnd>
+          <lineRanges/>
+          <id>f0048272-556f-4271-a4c4-d9d237c08f4b</id>
+          <reference>18</reference>
+          <origin>pmd</origin>
+          <originName>PMD</originName>
+          <moduleName>Vaadin Addressbook example</moduleName>
+          <packageName reference="../../issue[3]/packageName"/>
+          <pathName>/var/lib/jenkins/workspace/declarative-pipeline</pathName>
+          <fileName>src/main/java/com/edurekademo/utilities/PropertyLoader.java</fileName>
+          <message>Avoid unused private fields such as &apos;LOG&apos;.</message>
+          <description></description>
+          <fingerprint>408A5922B34E49C7A497312E60E24BB8</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Error Prone</category>
+          <type>EmptyCatchBlock</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>96</lineStart>
+          <lineEnd>96</lineEnd>
+          <columnStart>4</columnStart>
+          <columnEnd>30</columnEnd>
+          <lineRanges/>
+          <id>fcc4922c-c52e-4fe5-aa6a-f962dfe6cb61</id>
+          <reference>18</reference>
+          <origin>pmd</origin>
+          <originName>PMD</originName>
+          <moduleName>Vaadin Addressbook example</moduleName>
+          <packageName reference="../../issue[3]/packageName"/>
+          <pathName>/var/lib/jenkins/workspace/declarative-pipeline</pathName>
+          <fileName reference="../../issue[6]/fileName"/>
+          <message reference="../../issue/message"/>
+          <description></description>
+          <fingerprint>61E6A0EFC880A05E422C224CB330EDF5</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Code Style</category>
+          <type>UselessParentheses</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>98</lineStart>
+          <lineEnd>98</lineEnd>
+          <columnStart>33</columnStart>
+          <columnEnd>46</columnEnd>
+          <lineRanges/>
+          <id>e18404ff-5e92-496e-937a-210ed608b588</id>
+          <reference>18</reference>
+          <origin>pmd</origin>
+          <originName>PMD</originName>
+          <moduleName>Vaadin Addressbook example</moduleName>
+          <packageName reference="../../issue[3]/packageName"/>
+          <pathName>/var/lib/jenkins/workspace/declarative-pipeline</pathName>
+          <fileName reference="../../issue[6]/fileName"/>
+          <message reference="../../issue[2]/message"/>
+          <description></description>
+          <fingerprint>A96180725F18DE1014E370737D0CB7AC</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Best Practices</category>
+          <type>UnusedPrivateField</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>66</lineStart>
+          <lineEnd>66</lineEnd>
+          <columnStart>30</columnStart>
+          <columnEnd>32</columnEnd>
+          <lineRanges/>
+          <id>b899be16-a6c4-4aae-b8c3-4f10f193466d</id>
+          <reference>18</reference>
+          <origin>pmd</origin>
+          <originName>PMD</originName>
+          <moduleName>Vaadin Addressbook example</moduleName>
+          <packageName reference="../../issue[3]/packageName"/>
+          <pathName>/var/lib/jenkins/workspace/declarative-pipeline</pathName>
+          <fileName>src/main/java/com/edurekademo/utilities/StringUtilities.java</fileName>
+          <message reference="../../issue[6]/message"/>
+          <description></description>
+          <fingerprint>156BCECFCF56CF6C13AB3FA9AAA47EA5</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Code Style</category>
+          <type>UselessParentheses</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>136</lineStart>
+          <lineEnd>136</lineEnd>
+          <columnStart>8</columnStart>
+          <columnEnd>20</columnEnd>
+          <lineRanges/>
+          <id>2aa73abf-c368-41af-bf47-71f87e218692</id>
+          <reference>18</reference>
+          <origin>pmd</origin>
+          <originName>PMD</originName>
+          <moduleName>Vaadin Addressbook example</moduleName>
+          <packageName reference="../../issue[3]/packageName"/>
+          <pathName>/var/lib/jenkins/workspace/declarative-pipeline</pathName>
+          <fileName reference="../../issue[9]/fileName"/>
+          <message reference="../../issue[2]/message"/>
+          <description></description>
+          <fingerprint>EABD9934AD5C01AE7C68801DC656FD26</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Code Style</category>
+          <type>UselessParentheses</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>183</lineStart>
+          <lineEnd>183</lineEnd>
+          <columnStart>17</columnStart>
+          <columnEnd>57</columnEnd>
+          <lineRanges/>
+          <id>1ff36bdd-855c-44b4-af34-ab9022b9271a</id>
+          <reference>18</reference>
+          <origin>pmd</origin>
+          <originName>PMD</originName>
+          <moduleName>Vaadin Addressbook example</moduleName>
+          <packageName reference="../../issue[3]/packageName"/>
+          <pathName>/var/lib/jenkins/workspace/declarative-pipeline</pathName>
+          <fileName reference="../../issue[9]/fileName"/>
+          <message reference="../../issue[2]/message"/>
+          <description></description>
+          <fingerprint>E5CF6EFFD3984DCDF660CE642CB02B76</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Code Style</category>
+          <type>UselessParentheses</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>184</lineStart>
+          <lineEnd>184</lineEnd>
+          <columnStart>20</columnStart>
+          <columnEnd>60</columnEnd>
+          <lineRanges/>
+          <id>899c00d1-32bd-4122-bb4c-a83027d860cf</id>
+          <reference>18</reference>
+          <origin>pmd</origin>
+          <originName>PMD</originName>
+          <moduleName>Vaadin Addressbook example</moduleName>
+          <packageName reference="../../issue[3]/packageName"/>
+          <pathName>/var/lib/jenkins/workspace/declarative-pipeline</pathName>
+          <fileName reference="../../issue[9]/fileName"/>
+          <message reference="../../issue[2]/message"/>
+          <description></description>
+          <fingerprint>24001213E763144E6999214473A4BA0B</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+      </elements>
+      <infoMessages>
+        <string>Searching for all files in &apos;/var/lib/jenkins/workspace/declarative-pipeline&apos; that match the pattern &apos;**/pmd.xml&apos;</string>
+        <string>Traversing of symbolic links: enabled</string>
+        <string>-&gt; found 1 file</string>
+        <string>Successfully parsed file /var/lib/jenkins/workspace/declarative-pipeline/target/pmd.xml</string>
+        <string>-&gt; found 12 issues (skipped 0 duplicates)</string>
+        <string>Successfully processed file &apos;target/pmd.xml&apos;</string>
+        <string>Post processing issues on &apos;Master&apos; with source code encoding &apos;UTF-8&apos;</string>
+        <string>Creating SCM blamer to obtain author and commit information for affected files</string>
+        <string>-&gt; No blamer installed yet. You need to install the &apos;git-forensics&apos; plugin to enable blaming for Git.</string>
+        <string>Resolving file names for all issues in workspace &apos;/var/lib/jenkins/workspace/declarative-pipeline&apos;</string>
+        <string>-&gt; resolved paths in source directory (6 found, 0 not found)</string>
+        <string>Resolving module names from module definitions (build.xml, pom.xml, or Manifest.mf files)</string>
+        <string>-&gt; resolved module names for 12 issues</string>
+        <string>Resolving package names (or namespaces) by parsing the affected files</string>
+        <string>-&gt; all affected files already have a valid package name</string>
+        <string>No filter has been set, publishing all 12 issues</string>
+        <string>Creating fingerprints for all affected code blocks to track issues over different builds</string>
+        <string>-&gt; created fingerprints for 12 issues (skipped 0 issues)</string>
+      </infoMessages>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+  </subReports>
+  <elements class="linked-hash-set"/>
+  <infoMessages>
+    <string>Searching for all files in &apos;/var/lib/jenkins/workspace/declarative-pipeline&apos; that match the pattern &apos;**/pmd.xml&apos;</string>
+    <string>Traversing of symbolic links: enabled</string>
+    <string>-&gt; found 1 file</string>
+    <string>Successfully parsed file /var/lib/jenkins/workspace/declarative-pipeline/target/pmd.xml</string>
+    <string>-&gt; found 12 issues (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;target/pmd.xml&apos;</string>
+    <string>Post processing issues on &apos;Master&apos; with source code encoding &apos;UTF-8&apos;</string>
+    <string>Creating SCM blamer to obtain author and commit information for affected files</string>
+    <string>-&gt; No blamer installed yet. You need to install the &apos;git-forensics&apos; plugin to enable blaming for Git.</string>
+    <string>Resolving file names for all issues in workspace &apos;/var/lib/jenkins/workspace/declarative-pipeline&apos;</string>
+    <string>-&gt; resolved paths in source directory (6 found, 0 not found)</string>
+    <string>Resolving module names from module definitions (build.xml, pom.xml, or Manifest.mf files)</string>
+    <string>-&gt; resolved module names for 12 issues</string>
+    <string>Resolving package names (or namespaces) by parsing the affected files</string>
+    <string>-&gt; all affected files already have a valid package name</string>
+    <string>No filter has been set, publishing all 12 issues</string>
+    <string>Creating fingerprints for all affected code blocks to track issues over different builds</string>
+    <string>-&gt; created fingerprints for 12 issues (skipped 0 issues)</string>
+    <string>Copying affected files to Jenkins&apos; build folder &apos;/var/lib/jenkins/jobs/declarative-pipeline/builds/18/files-with-issues&apos;</string>
+    <string>-&gt; 6 copied, 0 not in workspace, 0 not-found, 0 with I/O error</string>
+    <string>Skipping cleaning of source code files in old builds</string>
+    <string>Repository miner is not configured, skipping repository mining</string>
+    <string>Reference build recorder is not configured</string>
+    <string>No valid reference build found</string>
+    <string>All reported issues will be considered outstanding</string>
+    <string>No quality gates have been set - skipping</string>
+    <string>Health report is disabled - skipping</string>
+    <string>Created analysis result for 12 issues (found 0 new issues, fixed 0 issues)</string>
+    <string>Attaching ResultAction with ID &apos;pmd&apos; to build &apos;declarative-pipeline #18&apos;.</string>
+  </infoMessages>
+  <errorMessages/>
+  <countersByKey/>
+  <duplicatesSize>0</duplicatesSize>
+</analysisReport>

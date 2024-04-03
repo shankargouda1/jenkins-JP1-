@@ -1,0 +1,32 @@
+Started by timer
+[Wed Apr 03 08:51:08 UTC 2024] Starting branch indexing...
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+using GIT_ASKPASS to set credentials 
+ > git ls-remote --symref -- https://github.com/shankargouda1/DevOpsClassCodes # timeout=10
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/caches/git-e96837be9551e1a625fd342b310a43e7/.git # timeout=10
+Setting origin to https://github.com/shankargouda1/DevOpsClassCodes
+ > git config remote.origin.url https://github.com/shankargouda1/DevOpsClassCodes # timeout=10
+Fetching & pruning origin...
+Listing remote references...
+ > git config --get remote.origin.url # timeout=10
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+using GIT_ASKPASS to set credentials 
+ > git ls-remote -h -- https://github.com/shankargouda1/DevOpsClassCodes # timeout=10
+Fetching upstream changes from origin
+ > git config --get remote.origin.url # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --force --progress --prune -- origin +refs/heads/*:refs/remotes/origin/* # timeout=10
+Checking branches...
+  Checking branch branch1
+      ‘JenkinsFile1’ found
+    Met criteria
+No changes detected: branch1 (still at e31aaac6909c904733cd800877695d38b13679fd)
+  Checking branch master
+      ‘JenkinsFile1’ found
+    Met criteria
+No changes detected: master (still at 9b79ddc3ce50819e84fb6e33ced404ceab6c5019)
+Processed 2 branches
+[Wed Apr 03 08:51:09 UTC 2024] Finished branch indexing. Indexing took 1.8 sec
+Finished: SUCCESS

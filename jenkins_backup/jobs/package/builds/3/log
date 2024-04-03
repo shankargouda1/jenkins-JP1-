@@ -1,0 +1,127 @@
+Started by upstream project "[8mha:////4Aq6B3Emx5SEIIdapGWcN3r9hfWNR2pXFhIeeP6zvTWqAAAAlB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYO/az8JP3CRH0AqEg0AL0AAAA=[0mqa" build number [8mha:////4MZYn9Ox4CRlrwBaVMlY3tNhTxARxzh7SfgY5K4nTc0AAAAAlB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBk79rPwk/cJEfWMA+ZbX574AAAA=[0m3
+originally caused by:
+ Started by upstream project "[8mha:////4GNMOIRZ7yhgoMQzphNV+fLNgqm104+HsdObbFKe/HlPAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAweoBn6WflJ+slAJ+qWpBaXAM3QBwADLSThxwAAAA==[0mcode-testing" build number [8mha:////4G85PCJAP1w9kMDxwL25lC1zwMvmhAUbtKzGcQj7UkLlAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBmH9rPwk/WSgE3VLUotLgGbomwAAiF2vlMgAAAA=[0m4
+ originally caused by:
+  Started by upstream project "[8mha:////4Nb6b65Htvp0Pltb0ImgSDnRQi+lfqffdmh/XnJ2q/N1AAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZB/az8JP1koBOT83MLMnNS9QHujchrxgAAAA==[0mcodecompile" build number [8mha:////4JsbIlikC3QQk3v5whAYzXN3ZlclDNnSUjtQzDruvi8XAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZh/az8JP1koBOT83MLMnNS9Q1NALF0wKTIAAAA[0m14
+  originally caused by:
+   Started by user [8mha:////4KaMPlV5yHxbDXdrPbDTfewriqxoPvHXkCxNN0wEeI63AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL94syUlFIAnjHM9cAAAAA=[0msiddu
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/package
+The recommended git tool is: NONE
+using credential github-token2
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/package/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/shankargouda1/DevOpsClassCodes # timeout=10
+Fetching upstream changes from https://github.com/shankargouda1/DevOpsClassCodes
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --force --progress -- https://github.com/shankargouda1/DevOpsClassCodes +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 8452c87e0a65675c85d153af99bfa8fec4da2c5b (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 8452c87e0a65675c85d153af99bfa8fec4da2c5b # timeout=10
+Commit message: "Update Jenkinsfile3"
+ > git rev-list --no-walk 8452c87e0a65675c85d153af99bfa8fec4da2c5b # timeout=10
+[package] $ mvn package
+[[1;34mINFO[m] Scanning for projects...
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for com.edurekademo.tutorial:addressbook:war:2.0
+[[1;33mWARNING[m] Reporting configuration should be done in <reporting> section, not in maven-site-plugin <configuration> as reportPlugins parameter. @ line 298, column 40
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] It is highly recommended to fix these problems because they threaten the stability of your build.
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] For this reason, future Maven versions might no longer support building such malformed projects.
+[[1;33mWARNING[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m----------------< [0;36mcom.edurekademo.tutorial:addressbook[0;1m >----------------[m
+[[1;34mINFO[m] [1mBuilding Vaadin Addressbook example 2.0[m
+[[1;34mINFO[m] [1m--------------------------------[ war ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:1.0:enforce[m [1m(enforce-versions)[m @ [36maddressbook[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36maddressbook[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /var/lib/jenkins/workspace/package/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.2:compile[m [1m(default-compile)[m @ [36maddressbook[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 13 source files to /var/lib/jenkins/workspace/package/target/classes
+[[1;34mINFO[m] /var/lib/jenkins/workspace/package/src/main/java/com/edurekademo/tutorial/addressbook/AddressbookUI.java: Some input files use or override a deprecated API.
+[[1;34mINFO[m] /var/lib/jenkins/workspace/package/src/main/java/com/edurekademo/tutorial/addressbook/AddressbookUI.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] /var/lib/jenkins/workspace/package/src/main/java/com/edurekademo/tutorial/addressbook/backend/ContactService.java: /var/lib/jenkins/workspace/package/src/main/java/com/edurekademo/tutorial/addressbook/backend/ContactService.java uses unchecked or unsafe operations.
+[[1;34mINFO[m] /var/lib/jenkins/workspace/package/src/main/java/com/edurekademo/tutorial/addressbook/backend/ContactService.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36maddressbook[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.2:testCompile[m [1m(default-testCompile)[m @ [36maddressbook[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 5 source files to /var/lib/jenkins/workspace/package/target/test-classes
+[[1;34mINFO[m] /var/lib/jenkins/workspace/package/src/test/java/com/edurekademo/utilities/TestGenericComparator.java: /var/lib/jenkins/workspace/package/src/test/java/com/edurekademo/utilities/TestGenericComparator.java uses or overrides a deprecated API.
+[[1;34mINFO[m] /var/lib/jenkins/workspace/package/src/test/java/com/edurekademo/utilities/TestGenericComparator.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.19.1:test[m [1m(default-test)[m @ [36maddressbook[0;1m ---[m
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.edurekademo.utilities.TestHexAsciiConversion
+testing ascii convertion into hexadecimal
+74657374696e6720617363696920636f6e76657274696f6e20696e746f2068657861646563696d616c
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.063 sec - in com.edurekademo.utilities.TestHexAsciiConversion
+Running com.edurekademo.utilities.TestLogger
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/lib/jenkins/.m2/repository/org/slf4j/slf4j-simple/1.7.7/slf4j-simple-1.7.7.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/var/lib/jenkins/.m2/repository/org/slf4j/slf4j-log4j12/1.7.7/slf4j-log4j12-1.7.7.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.SimpleLoggerFactory]
+[pool-1-thread-5] INFO com.edurekademo.utilities.TestLogger - java.lang.ArithmeticException: / by zero
+Cause:at com.edurekademo.utilities.TestLogger.testGetErrorMessage1(TestLogger.java:14)
+Cause:at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[pool-1-thread-6] INFO com.edurekademo.utilities.TestLogger - java.lang.ArithmeticException: / by zero
+Cause:at com.edurekademo.utilities.TestLogger.testGetErrorMessage2(TestLogger.java:30)
+Cause:at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[pool-1-thread-7] INFO com.edurekademo.utilities.TestLogger - java.lang.ArithmeticException: / by zero
+Cause:at com.edurekademo.utilities.ExceptionThrower.getCounter(ExceptionThrower.java:13)
+Cause:at com.edurekademo.utilities.TestLogger.testGetErrorMessage3(TestLogger.java:45)
+[pool-1-thread-8] INFO com.edurekademo.utilities.TestLogger - java.io.IOException: TESTIOEXCEPTION
+Cause:at com.edurekademo.utilities.ExceptionThrower.doNothing(ExceptionThrower.java:18)
+Cause:at com.edurekademo.utilities.TestLogger.testGetErrorMessage4(TestLogger.java:60)
+[pool-1-thread-9] ERROR com.edurekademo.utilities.ExceptionThrower - java.lang.Exception: DEAR
+Cause:at com.edurekademo.utilities.ExceptionThrower.doYYY(ExceptionThrower.java:35)
+Cause:at com.edurekademo.utilities.ExceptionThrower.doXXX(ExceptionThrower.java:23)
+[pool-1-thread-9] INFO com.edurekademo.utilities.TestLogger - java.lang.Exception: TEST MESSAGE
+Cause:at com.edurekademo.utilities.ExceptionThrower.doCheck(ExceptionThrower.java:43)
+Cause:at com.edurekademo.utilities.TestLogger.testGetErrorMessage5(TestLogger.java:75)
+***** java.lang.Exception: TEST MESSAGE
+Cause:at com.edurekademo.utilities.ExceptionThrower.doCheck(ExceptionThrower.java:43)
+Cause:at com.edurekademo.utilities.TestLogger.testGetErrorMessage5(TestLogger.java:75)
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.137 sec - in com.edurekademo.utilities.TestLogger
+Running com.edurekademo.utilities.TestGenericComparator
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.058 sec - in com.edurekademo.utilities.TestGenericComparator
+
+Results :
+
+Tests run: 23, Failures: 0, Errors: 0, Skipped: 0
+
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-war-plugin:2.2:war[m [1m(default-war)[m @ [36maddressbook[0;1m ---[m
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.thoughtworks.xstream.core.util.Fields (file:/var/lib/jenkins/.m2/repository/com/thoughtworks/xstream/xstream/1.3.1/xstream-1.3.1.jar) to field java.util.Properties.defaults
+WARNING: Please consider reporting this to the maintainers of com.thoughtworks.xstream.core.util.Fields
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[[1;34mINFO[m] Packaging webapp
+[[1;34mINFO[m] Assembling webapp [addressbook] in [/var/lib/jenkins/workspace/package/target/addressbook]
+[[1;34mINFO[m] Processing war project
+[[1;34mINFO[m] Webapp assembled in [228 msecs]
+[[1;34mINFO[m] Building war: /var/lib/jenkins/workspace/package/target/addressbook.war
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  7.760 s
+[[1;34mINFO[m] Finished at: 2024-03-28T07:21:27Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+Finished: SUCCESS

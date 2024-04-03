@@ -1,0 +1,122 @@
+Started by upstream project "[8mha:////4GNMOIRZ7yhgoMQzphNV+fLNgqm104+HsdObbFKe/HlPAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAweoBn6WflJ+slAJ+qWpBaXAM3QBwADLSThxwAAAA==[0mcode-testing" build number [8mha:////4BW50M4OqnQ/dDy7b05MP3p2iuyhO6D8xOvK6oVHQnHRAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBmH9rPwk/WSgE3VLUotLgGbomwEApDyhesgAAAA=[0m6
+originally caused by:
+ Started by upstream project "[8mha:////4Nb6b65Htvp0Pltb0ImgSDnRQi+lfqffdmh/XnJ2q/N1AAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZB/az8JP1koBOT83MLMnNS9QHujchrxgAAAA==[0mcodecompile" build number [8mha:////4B1YDYUMD62x0cHESddJTAXDnbmhERGEW8Cv5RWStQJWAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZh/az8JP1koBOT83MLMnNS9Q3NAQslyT3IAAAA[0m17
+ originally caused by:
+  Started by user [8mha:////4KaMPlV5yHxbDXdrPbDTfewriqxoPvHXkCxNN0wEeI63AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL94syUlFIAnjHM9cAAAAA=[0msiddu
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/qa
+The recommended git tool is: NONE
+using credential github-token2
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/qa/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/shankargouda1/DevOpsClassCodes # timeout=10
+Fetching upstream changes from https://github.com/shankargouda1/DevOpsClassCodes
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --force --progress -- https://github.com/shankargouda1/DevOpsClassCodes +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 287058a5837d8b9a85480e900f9340f6a5e904c4 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 287058a5837d8b9a85480e900f9340f6a5e904c4 # timeout=10
+Commit message: "Create test"
+ > git rev-list --no-walk 287058a5837d8b9a85480e900f9340f6a5e904c4 # timeout=10
+[qa] $ mvn checkstyle:checkstyle
+[[1;34mINFO[m] Scanning for projects...
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for com.edurekademo.tutorial:addressbook:war:2.0
+[[1;33mWARNING[m] Reporting configuration should be done in <reporting> section, not in maven-site-plugin <configuration> as reportPlugins parameter. @ line 298, column 40
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] It is highly recommended to fix these problems because they threaten the stability of your build.
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] For this reason, future Maven versions might no longer support building such malformed projects.
+[[1;33mWARNING[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m----------------< [0;36mcom.edurekademo.tutorial:addressbook[0;1m >----------------[m
+[[1;34mINFO[m] [1mBuilding Vaadin Addressbook example 2.0[m
+[[1;34mINFO[m] [1m--------------------------------[ war ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-checkstyle-plugin:3.3.1:checkstyle[m [1m(default-cli)[m @ [36maddressbook[0;1m ---[m
+[[1;34mINFO[m] Rendering content with [1morg.apache.maven.skins:maven-default-skin:jar:1.3 skin[m.
+[[1;34mINFO[m] There are 821 errors reported by Checkstyle 9.3 with sun_checks.xml ruleset.
+[[1;33mWARNING[m] Unable to locate Source XRef to link to - DISABLED
+[[1;33mWARNING[m] Unable to locate Test Source XRef to link to - DISABLED
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  5.307 s
+[[1;34mINFO[m] Finished at: 2024-03-28T11:10:10Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[CheckStyle] Using default pattern '**/checkstyle-result.xml' since user defined pattern is not set
+[CheckStyle] Searching for all files in '/var/lib/jenkins/workspace/qa' that match the pattern '**/checkstyle-result.xml'
+[CheckStyle] Traversing of symbolic links: enabled
+[CheckStyle] -> found 1 file
+[CheckStyle] Successfully parsed file /var/lib/jenkins/workspace/qa/target/checkstyle-result.xml
+[CheckStyle] -> found 821 issues (skipped 0 duplicates)
+[CheckStyle] Successfully processed file 'target/checkstyle-result.xml'
+[CheckStyle] Post processing issues on 'Master' with source code encoding 'UTF-8'
+[CheckStyle] Creating SCM blamer to obtain author and commit information for affected files
+[CheckStyle] -> No blamer installed yet. You need to install the 'git-forensics' plugin to enable blaming for Git.
+[CheckStyle] Resolving file names for all issues in workspace '/var/lib/jenkins/workspace/qa'
+[CheckStyle] -> resolved paths in source directory (14 found, 0 not found)
+[CheckStyle] Resolving module names from module definitions (build.xml, pom.xml, or Manifest.mf files)
+[CheckStyle] -> resolved module names for 821 issues
+[CheckStyle] Resolving package names (or namespaces) by parsing the affected files
+[CheckStyle] -> resolved package names of 14 affected files
+[CheckStyle] No filter has been set, publishing all 821 issues
+[CheckStyle] Creating fingerprints for all affected code blocks to track issues over different builds
+[CheckStyle] -> created fingerprints for 821 issues (skipped 0 issues)
+[CheckStyle] Copying affected files to Jenkins' build folder '/var/lib/jenkins/jobs/qa/builds/5/files-with-issues'
+[CheckStyle] -> 14 copied, 0 not in workspace, 0 not-found, 0 with I/O error
+[CheckStyle] Deleting source code files of build #4
+[CheckStyle] Repository miner is not configured, skipping repository mining
+[CheckStyle] Searching for all files in '/var/lib/jenkins/workspace/qa' that match the pattern '**/checkstyle-result.xml'
+[CheckStyle] Traversing of symbolic links: enabled
+[CheckStyle] -> found 1 file
+[CheckStyle] Successfully parsed file /var/lib/jenkins/workspace/qa/target/checkstyle-result.xml
+[CheckStyle] -> found 821 issues (skipped 0 duplicates)
+[CheckStyle] Successfully processed file 'target/checkstyle-result.xml'
+[CheckStyle] Post processing issues on 'Master' with source code encoding 'UTF-8'
+[CheckStyle] Creating SCM blamer to obtain author and commit information for affected files
+[CheckStyle] -> No blamer installed yet. You need to install the 'git-forensics' plugin to enable blaming for Git.
+[CheckStyle] Resolving file names for all issues in workspace '/var/lib/jenkins/workspace/qa'
+[CheckStyle] -> resolved paths in source directory (14 found, 0 not found)
+[CheckStyle] Resolving module names from module definitions (build.xml, pom.xml, or Manifest.mf files)
+[CheckStyle] -> resolved module names for 821 issues
+[CheckStyle] Resolving package names (or namespaces) by parsing the affected files
+[CheckStyle] -> resolved package names of 14 affected files
+[CheckStyle] No filter has been set, publishing all 821 issues
+[CheckStyle] Creating fingerprints for all affected code blocks to track issues over different builds
+[CheckStyle] -> created fingerprints for 821 issues (skipped 0 issues)
+[CheckStyle] Searching for all files in '/var/lib/jenkins/workspace/qa' that match the pattern '**/checkstyle-result.xml'
+[CheckStyle] Traversing of symbolic links: enabled
+[CheckStyle] -> found 1 file
+[CheckStyle] Successfully parsed file /var/lib/jenkins/workspace/qa/target/checkstyle-result.xml
+[CheckStyle] -> found 821 issues (skipped 0 duplicates)
+[CheckStyle] Successfully processed file 'target/checkstyle-result.xml'
+[CheckStyle] Post processing issues on 'Master' with source code encoding 'UTF-8'
+[CheckStyle] Creating SCM blamer to obtain author and commit information for affected files
+[CheckStyle] -> No blamer installed yet. You need to install the 'git-forensics' plugin to enable blaming for Git.
+[CheckStyle] Resolving file names for all issues in workspace '/var/lib/jenkins/workspace/qa'
+[CheckStyle] -> resolved paths in source directory (14 found, 0 not found)
+[CheckStyle] Resolving module names from module definitions (build.xml, pom.xml, or Manifest.mf files)
+[CheckStyle] -> resolved module names for 821 issues
+[CheckStyle] Resolving package names (or namespaces) by parsing the affected files
+[CheckStyle] -> resolved package names of 14 affected files
+[CheckStyle] No filter has been set, publishing all 821 issues
+[CheckStyle] Creating fingerprints for all affected code blocks to track issues over different builds
+[CheckStyle] -> created fingerprints for 821 issues (skipped 0 issues)
+[CheckStyle] Copying affected files to Jenkins' build folder '/var/lib/jenkins/jobs/qa/builds/5/files-with-issues'
+[CheckStyle] -> 14 copied, 0 not in workspace, 0 not-found, 0 with I/O error
+[CheckStyle] Deleting source code files of build #4
+[CheckStyle] Repository miner is not configured, skipping repository mining
+[CheckStyle] Reference build recorder is not configured
+[CheckStyle] No valid reference build found
+[CheckStyle] All reported issues will be considered outstanding
+[CheckStyle] No quality gates have been set - skipping
+[CheckStyle] Health report is disabled - skipping
+[CheckStyle] Created analysis result for 821 issues (found 0 new issues, fixed 0 issues)
+[CheckStyle] Attaching ResultAction with ID 'checkstyle' to build 'qa #5'.
+[Checks API] No suitable checks publisher found.
+Triggering a new build of [8mha:////4F2FzLPR26uD01TaxMk2KT5E+BWNQFG717A4ihKsBpe2AAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZe/az8JP2CxOTsxPRUfQCY/zGswgAAAA==[0mpackage
+Finished: SUCCESS

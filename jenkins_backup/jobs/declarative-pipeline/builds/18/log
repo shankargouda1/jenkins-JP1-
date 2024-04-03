@@ -1,0 +1,383 @@
+Started by user [8mha:////4KaMPlV5yHxbDXdrPbDTfewriqxoPvHXkCxNN0wEeI63AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL94syUlFIAnjHM9cAAAAA=[0msiddu
+[8mha:////4EhsDQ+sHQdB3Vsi1sYZ1jB1e+7smi00nRpbLRwtOmDQAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4HNZ1vitAIBwSmsrE4h4lmD7ggy/WQ9TgM8PzG2VR/nJAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4An5xapRb6Lio/jv7n6K1qIuNWv5blse+eGjwaMvsXorAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in /var/lib/jenkins/workspace/declarative-pipeline
+[8mha:////4MvMkNObwjIfS/sh17/r5u0v1uZ6RL0TGAy8foGSWMmmAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4MjFu58Lf/wbWKJyflTtyg5A5m7xmnvVKm7FWj51O+kfAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4Ca1G5UgFVaeSPNnn+bbRAmw69oZOsmkBZCTcbFxAy56AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (checkout the code from github)
+[8mha:////4IJ1OU5BG89kiNne7uYPtm7sn91mqW6vt047AM7+hCqHAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] git
+The recommended git tool is: git
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/shankargouda1/DevOpsClassCodes
+ > git init /var/lib/jenkins/workspace/declarative-pipeline # timeout=10
+Fetching upstream changes from https://github.com/shankargouda1/DevOpsClassCodes
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git fetch --tags --force --progress -- https://github.com/shankargouda1/DevOpsClassCodes +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/shankargouda1/DevOpsClassCodes # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 9b79ddc3ce50819e84fb6e33ced404ceab6c5019 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 9b79ddc3ce50819e84fb6e33ced404ceab6c5019 # timeout=10
+ > git branch -a -v --no-abbrev # timeout=10
+ > git checkout -b master 9b79ddc3ce50819e84fb6e33ced404ceab6c5019 # timeout=10
+Commit message: "Merge pull request #1 from shankargouda1/branch1"
+ > git rev-list --no-walk 287058a5837d8b9a85480e900f9340f6a5e904c4 # timeout=10
+[8mha:////4O9vdtd8FfamxwzdPVq5NAnXbdRNIYpOESU0ihlz2nr3AAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4Fb6Sk+icC0rg/Wm2SgQ18yURLCY1C3e7vDh2ehvHUtBAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4FxTX897xMdX2nXG/4DohI75JzCvPE+YPuLVD1Et2Ke1AAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] stage
+[8mha:////4CbDTOR1dmS6CMctyyFKI0NXyGkKmBjV2R0VrM/wFl36AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] { (code compile)
+[8mha:////4FQhqbwLcfAZxbOi+QpEjpoxlTgBf0Lq05z6qQTAZAAkAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggysXWsbBkaT4AJIoT5nwCRVJ7Iq3kH0cxYucXOvm3e8wXrGOBIQTOrcDAYO8O8m3RZLFMYro4ys3RhHWEkp5hQWVCvTgsKSgqWVDWsOGwUdo6iQZ1gy628y8ZJ1M05hfIdONSmH+EBFS/mJEP6whxgd5v6SPjz/BXA7BPUbfupvX8DpQJrNb4AAAA=[0m[Pipeline] sh
++ mvn compile
+[[1;34mINFO[m] Scanning for projects...
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for com.edurekademo.tutorial:addressbook:war:2.0
+[[1;33mWARNING[m] Reporting configuration should be done in <reporting> section, not in maven-site-plugin <configuration> as reportPlugins parameter. @ line 298, column 40
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] It is highly recommended to fix these problems because they threaten the stability of your build.
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] For this reason, future Maven versions might no longer support building such malformed projects.
+[[1;33mWARNING[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m----------------< [0;36mcom.edurekademo.tutorial:addressbook[0;1m >----------------[m
+[[1;34mINFO[m] [1mBuilding Vaadin Addressbook example 2.0[m
+[[1;34mINFO[m] [1m--------------------------------[ war ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:1.0:enforce[m [1m(enforce-versions)[m @ [36maddressbook[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36maddressbook[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /var/lib/jenkins/workspace/declarative-pipeline/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.2:compile[m [1m(default-compile)[m @ [36maddressbook[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 13 source files to /var/lib/jenkins/workspace/declarative-pipeline/target/classes
+[[1;34mINFO[m] /var/lib/jenkins/workspace/declarative-pipeline/src/main/java/com/edurekademo/tutorial/addressbook/ContactForm.java: Some input files use or override a deprecated API.
+[[1;34mINFO[m] /var/lib/jenkins/workspace/declarative-pipeline/src/main/java/com/edurekademo/tutorial/addressbook/ContactForm.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] /var/lib/jenkins/workspace/declarative-pipeline/src/main/java/com/edurekademo/tutorial/addressbook/backend/ContactService.java: /var/lib/jenkins/workspace/declarative-pipeline/src/main/java/com/edurekademo/tutorial/addressbook/backend/ContactService.java uses unchecked or unsafe operations.
+[[1;34mINFO[m] /var/lib/jenkins/workspace/declarative-pipeline/src/main/java/com/edurekademo/tutorial/addressbook/backend/ContactService.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  4.036 s
+[[1;34mINFO[m] Finished at: 2024-04-02T11:01:50Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[8mha:////4NSRbBVKV3ZJjRfOcRcymrBMIBFDtwl1IibznFzAOwcBAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyGUvHypah8QSYIEKY/wkQSeWJvJp3EM2MlVvs7NvmPV+wjgGOFDSzCgeDsTPMu0mXxTKF4eooM0sX1hFGcooJlQX16rSgoKRgSVXDisNGYecoGtQJttzKu2ycRN2cUyjfgUNt+hEeUPFiTjKkL8wBdrepj4Q/z18BzD5B3baf2vs35DNwLL4AAAA=[0m[Pipeline] echo
+compiling is done
+[8mha:////4KqGOlk0mQpZQOgtSEtsh27/bBhHs0uSeKijbR6eCS8qAAAApB+LCAAAAAAAAP9tjbEOwiAURV9rHFwd/QiaJm7GyZWw+AXYIkLJexSodPKL/DX/QbSJk3e4uecu5/mCdQxwpKCZVTgYjJ1h3k26LJYpDFdHmVm6sI4wklNMqCyoV6cFBSUFS6oaVhw2CjtH0aBOsOVW3mXjJOrmnEL5Dhxq04/wgIoXc5IhfWEOsLtNfST8ef4KYPY+Qd3uP9W+ATnVfPq+AAAA[0m[Pipeline] }
+[8mha:////4OCov4A9C+enntIEs9Lb5JSzQz1+8H0ACRoMh71mZzRUAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICBRWiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7Bgo2J0a+AAAA[0m[Pipeline] // stage
+[8mha:////4IdxCh+qPYt4LnnimAe9P3N2Yg+gpOtk929+JD0snoJsAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjJESDqGgtN7zAxMY4se6CfSGpeBFf4w8EIlGx1c5Kq3m+oMwJDpS8bBy2AXMdZBd7PzU5UGovkQbZ0FnWhJmik9oNmqw7zqiJHcwRBSwULB3WkXJAz7BSjbmbKhr01YnTtO0VFMHe4AFCTWY2ib8wJlhfe5sJf56/Ahg7BrFlKDa7z7F8A6sHc4fBAAAA[0m[Pipeline] stage
+[8mha:////4CXWg3brLFDvUHpx2QaCpNrxSyLsVyBbSZWKIQvACHacAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohULDAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD1+IXOLCAAAA[0m[Pipeline] { (parallel stages)
+[8mha:////4CUmUA+5VB6fcA/w2SW7SD0ooRSONKCR5x0bNGIPFEhNAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUTCAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0rlhNLCAAAA[0m[Pipeline] parallel
+[8mha:////4D82N8d9Z9GC9tKmY6sHrtA4ROOljE/oMyDVbgvszFNgAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUmJBQJ9aoCycITQhJo/9LkpJOnIircQcClZjwYNmWrPd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCi3+2y7zedZvQF8icecwgAAAA==[0m[Pipeline] { (Branch: code testing)
+[8mha:////4ELFrkMFMtXEBXt5Tt9jkTpP9hw0Dfxf6DayTSkMueDDAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUJCTF2jLpwgNCEkjf4vSUo6cSKuxh0IVGLCg2Vbst7zBVXwcCSvmVU4GAy9YaObdE4skR8ujhKzdGY9YSCnWKdSR1K1S+0oKlhUlLDisFbYOwoGdYQNt+IuaidQ16fo83bgUBp5gwcUPJOj8PFbZg/b6yQD4Y/zFwDzGKFs9tl2zedZvQHZWptXwgAAAA==[0m[Pipeline] { (Branch: code qa)
+[8mha:////4ErksS6GdeUoEzTqG+2vIpkuH9NYn+67ik7qHr5JRR9HAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycogUdUVMrFEXThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbyhjgRMFwp7GzGFvLez+aOfFMobt5ytzRlbeEkbzmjc4NKX1ea0NJw6qCwUbAVmPrKVo0CXbCyYesvERTXVKYt6MAZtUATyjETE4ypG+ZAuzvo4qEP85fAEx9AlYfFquXZ/kBwhtSHMIAAAA=[0m[Pipeline] stage
+[8mha:////4HFQi31XpAtRXT20He9K04txvxudY83tANAup9K5rEL/AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUKiNiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPpnFij8IAAAA=[0m[Pipeline] { (code testing)
+[8mha:////4NuuRDwkw6udXZVA/4MloU6ybBuJm4gDAG6gZFB1tB0oAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUIDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dvd7Md5mfxAR8nhQvCAAAA[0m[Pipeline] stage
+[8mha:////4KexRakHoqH/WMabW4BHiojWA812AIR+M6UQT8MivQ5WAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQjAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/hYjrHCAAAA[0m[Pipeline] { (code qa)
+[8mha:////4BXPdNmZoYgqS3dsku6ggkOBh8xhUOrXsUyancP9jkEOAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigUSDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAEyb1FKvgAAAA==[0m[Pipeline] sh
+[8mha:////4O6nDFQGli7yXxKyo8qNbcKnNApH01FuWhc7KQCvivfGAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiISEKRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYMpTb3af24Q1Ja5owvgAAAA==[0m[Pipeline] sh
++ mvn test
++ mvn pmd:pmd
+[[1;34mINFO[m] Scanning for projects...
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for com.edurekademo.tutorial:addressbook:war:2.0
+[[1;33mWARNING[m] Reporting configuration should be done in <reporting> section, not in maven-site-plugin <configuration> as reportPlugins parameter. @ line 298, column 40
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] It is highly recommended to fix these problems because they threaten the stability of your build.
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] For this reason, future Maven versions might no longer support building such malformed projects.
+[[1;33mWARNING[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m----------------< [0;36mcom.edurekademo.tutorial:addressbook[0;1m >----------------[m
+[[1;34mINFO[m] [1mBuilding Vaadin Addressbook example 2.0[m
+[[1;34mINFO[m] [1m--------------------------------[ war ]---------------------------------[m
+[[1;34mINFO[m] Scanning for projects...
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for com.edurekademo.tutorial:addressbook:war:2.0
+[[1;33mWARNING[m] Reporting configuration should be done in <reporting> section, not in maven-site-plugin <configuration> as reportPlugins parameter. @ line 298, column 40
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] It is highly recommended to fix these problems because they threaten the stability of your build.
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] For this reason, future Maven versions might no longer support building such malformed projects.
+[[1;33mWARNING[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:1.0:enforce[m [1m(enforce-versions)[m @ [36maddressbook[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36maddressbook[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /var/lib/jenkins/workspace/declarative-pipeline/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.2:compile[m [1m(default-compile)[m @ [36maddressbook[0;1m ---[m
+Downloading from vaadin-snapshots: http://oss.sonatype.org/content/repositories/vaadin-snapshots/org/codehaus/mojo/maven-metadata.xml
+Downloading from vaadin-snapshots: http://oss.sonatype.org/content/repositories/vaadin-snapshots/org/apache/maven/plugins/maven-metadata.xml
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36maddressbook[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.2:testCompile[m [1m(default-testCompile)[m @ [36maddressbook[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 5 source files to /var/lib/jenkins/workspace/declarative-pipeline/target/test-classes
+Downloading from vaadin-snapshots: http://oss.sonatype.org/content/repositories/vaadin-snapshots/org/apache/maven/plugins/maven-pmd-plugin/maven-metadata.xml
+[[1;34mINFO[m] /var/lib/jenkins/workspace/declarative-pipeline/src/test/java/com/edurekademo/utilities/TestGenericComparator.java: /var/lib/jenkins/workspace/declarative-pipeline/src/test/java/com/edurekademo/utilities/TestGenericComparator.java uses or overrides a deprecated API.
+[[1;34mINFO[m] /var/lib/jenkins/workspace/declarative-pipeline/src/test/java/com/edurekademo/utilities/TestGenericComparator.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.19.1:test[m [1m(default-test)[m @ [36maddressbook[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m----------------< [0;36mcom.edurekademo.tutorial:addressbook[0;1m >----------------[m
+[[1;34mINFO[m] [1mBuilding Vaadin Addressbook example 2.0[m
+[[1;34mINFO[m] [1m--------------------------------[ war ]---------------------------------[m
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-pmd-plugin:3.21.2:pmd[m [1m(default-cli)[m @ [36maddressbook[0;1m ---[m
+Running com.edurekademo.utilities.TestHexAsciiConversion
+74657374696e6720617363696920636f6e76657274696f6e20696e746f2068657861646563696d616c
+testing ascii convertion into hexadecimal
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 sec - in com.edurekademo.utilities.TestHexAsciiConversion
+Running com.edurekademo.utilities.TestLogger
+[pool-1-thread-5] INFO com.edurekademo.utilities.TestLogger - java.lang.ArithmeticException: / by zero
+Cause:at com.edurekademo.utilities.TestLogger.testGetErrorMessage1(TestLogger.java:14)
+Cause:at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[pool-1-thread-6] INFO com.edurekademo.utilities.TestLogger - java.lang.ArithmeticException: / by zero
+Cause:at com.edurekademo.utilities.TestLogger.testGetErrorMessage2(TestLogger.java:30)
+Cause:at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[pool-1-thread-7] INFO com.edurekademo.utilities.TestLogger - java.lang.ArithmeticException: / by zero
+Cause:at com.edurekademo.utilities.ExceptionThrower.getCounter(ExceptionThrower.java:13)
+Cause:at com.edurekademo.utilities.TestLogger.testGetErrorMessage3(TestLogger.java:45)
+[pool-1-thread-8] INFO com.edurekademo.utilities.TestLogger - java.io.IOException: TESTIOEXCEPTION
+Cause:at com.edurekademo.utilities.ExceptionThrower.doNothing(ExceptionThrower.java:18)
+Cause:at com.edurekademo.utilities.TestLogger.testGetErrorMessage4(TestLogger.java:60)
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/lib/jenkins/.m2/repository/org/slf4j/slf4j-simple/1.7.7/slf4j-simple-1.7.7.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/var/lib/jenkins/.m2/repository/org/slf4j/slf4j-log4j12/1.7.7/slf4j-log4j12-1.7.7.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.SimpleLoggerFactory]
+[pool-1-thread-9] ERROR com.edurekademo.utilities.ExceptionThrower - java.lang.Exception: DEAR
+Cause:at com.edurekademo.utilities.ExceptionThrower.doYYY(ExceptionThrower.java:35)
+Cause:at com.edurekademo.utilities.ExceptionThrower.doXXX(ExceptionThrower.java:23)
+[pool-1-thread-9] INFO com.edurekademo.utilities.TestLogger - java.lang.Exception: TEST MESSAGE
+Cause:at com.edurekademo.utilities.ExceptionThrower.doCheck(ExceptionThrower.java:43)
+Cause:at com.edurekademo.utilities.TestLogger.testGetErrorMessage5(TestLogger.java:75)
+***** java.lang.Exception: TEST MESSAGE
+Cause:at com.edurekademo.utilities.ExceptionThrower.doCheck(ExceptionThrower.java:43)
+Cause:at com.edurekademo.utilities.TestLogger.testGetErrorMessage5(TestLogger.java:75)
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.156 sec - in com.edurekademo.utilities.TestLogger
+Running com.edurekademo.utilities.TestGenericComparator
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.094 sec - in com.edurekademo.utilities.TestGenericComparator
+
+Results :
+
+Tests run: 23, Failures: 0, Errors: 0, Skipped: 0
+
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  8.783 s
+[[1;34mINFO[m] Finished at: 2024-04-02T11:02:03Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[8mha:////4AvvV/Mt7X9YfPFNu711rjyIua1lNGgtt5vwxRVToZ2+AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiQYOEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQEwPXV5vgAAAA==[0m[Pipeline] }
+[8mha:////4K3hvgvuXOzcYtJ9OfFEO6QEUCd47zz0Ye6yh7yNQVwXAAAApB+LCAAAAAAAAP9tjbEOwiAURV9rHFwd/QiadDPGyZWw+AXYIkLJexSodPKL/DX/QbSJk3e4uecu5/mCdQxwpKCZVTgYjJ1h3k26LJYpDFdHmVm6sI4wklNMqCyoV6cFBSUFS6oaVhw2CjtH0aBOsOVW3mXjJOrmnEL5Dhxq04/wgIoXc5IhfWEOsLtNfST8ef4KYPY+Qd3uP9W+AQPeLsW+AAAA[0m[Pipeline] // stage
+[8mha:////4D5eZ/7n8XeXZfz3O3iSOB08mC0zjOZmjUl6UdY4pkyPAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOISQYmo0lppeIGJjXFi3RnbIal4EV/jD1hEomKL1c4283rDOgY4cTDYaxosxc6id6PJCycOw9XxhD1fsGOK7DS2empZ6WbBlpOGJUUJKwEbTZ3jaMkk2IpePmTlJJnqnEL+jgJKq+7whEJkc5IhfWEOsLuNKjL9PH8FMHufoDzUufb1B1PlWKq+AAAA[0m[Pipeline] }
+[[1;33mWARNING[m] Unable to locate Source XRef to link to - DISABLED
+[[1;34mINFO[m] PMD version: 6.55.0
+[[1;34mINFO[m] Rendering content with [1morg.apache.maven.skins:maven-default-skin:jar:1.3 skin[m.
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  13.281 s
+[[1;34mINFO[m] Finished at: 2024-04-02T11:02:09Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[8mha:////4OXHhM/vZ62Yd8U9UnuiSWWTHwVyCiS8ivB0Sb2zJ5wJAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiQFQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDREKHeHXPvt8AH4pgJnvgAAAA==[0m[Pipeline] recordIssues
+[PMD] Using default pattern '**/pmd.xml' since user defined pattern is not set
+[PMD] Searching for all files in '/var/lib/jenkins/workspace/declarative-pipeline' that match the pattern '**/pmd.xml'
+[PMD] Traversing of symbolic links: enabled
+[PMD] -> found 1 file
+[PMD] Successfully parsed file /var/lib/jenkins/workspace/declarative-pipeline/target/pmd.xml
+[PMD] -> found 12 issues (skipped 0 duplicates)
+[PMD] Successfully processed file 'target/pmd.xml'
+[PMD] Post processing issues on 'Master' with source code encoding 'UTF-8'
+[PMD] Creating SCM blamer to obtain author and commit information for affected files
+[PMD] -> No blamer installed yet. You need to install the 'git-forensics' plugin to enable blaming for Git.
+[PMD] Resolving file names for all issues in workspace '/var/lib/jenkins/workspace/declarative-pipeline'
+[PMD] -> resolved paths in source directory (6 found, 0 not found)
+[PMD] Resolving module names from module definitions (build.xml, pom.xml, or Manifest.mf files)
+[PMD] -> resolved module names for 12 issues
+[PMD] Resolving package names (or namespaces) by parsing the affected files
+[PMD] -> all affected files already have a valid package name
+[PMD] No filter has been set, publishing all 12 issues
+[PMD] Creating fingerprints for all affected code blocks to track issues over different builds
+[PMD] -> created fingerprints for 12 issues (skipped 0 issues)
+[PMD] Copying affected files to Jenkins' build folder '/var/lib/jenkins/jobs/declarative-pipeline/builds/18/files-with-issues'
+[PMD] -> 6 copied, 0 not in workspace, 0 not-found, 0 with I/O error
+[PMD] Skipping cleaning of source code files in old builds
+[PMD] Repository miner is not configured, skipping repository mining
+[PMD] Searching for all files in '/var/lib/jenkins/workspace/declarative-pipeline' that match the pattern '**/pmd.xml'
+[PMD] Traversing of symbolic links: enabled
+[PMD] -> found 1 file
+[PMD] Successfully parsed file /var/lib/jenkins/workspace/declarative-pipeline/target/pmd.xml
+[PMD] -> found 12 issues (skipped 0 duplicates)
+[PMD] Successfully processed file 'target/pmd.xml'
+[PMD] Post processing issues on 'Master' with source code encoding 'UTF-8'
+[PMD] Creating SCM blamer to obtain author and commit information for affected files
+[PMD] -> No blamer installed yet. You need to install the 'git-forensics' plugin to enable blaming for Git.
+[PMD] Resolving file names for all issues in workspace '/var/lib/jenkins/workspace/declarative-pipeline'
+[PMD] -> resolved paths in source directory (6 found, 0 not found)
+[PMD] Resolving module names from module definitions (build.xml, pom.xml, or Manifest.mf files)
+[PMD] -> resolved module names for 12 issues
+[PMD] Resolving package names (or namespaces) by parsing the affected files
+[PMD] -> all affected files already have a valid package name
+[PMD] No filter has been set, publishing all 12 issues
+[PMD] Creating fingerprints for all affected code blocks to track issues over different builds
+[PMD] -> created fingerprints for 12 issues (skipped 0 issues)
+[PMD] Searching for all files in '/var/lib/jenkins/workspace/declarative-pipeline' that match the pattern '**/pmd.xml'
+[PMD] Traversing of symbolic links: enabled
+[PMD] -> found 1 file
+[PMD] Successfully parsed file /var/lib/jenkins/workspace/declarative-pipeline/target/pmd.xml
+[PMD] -> found 12 issues (skipped 0 duplicates)
+[PMD] Successfully processed file 'target/pmd.xml'
+[PMD] Post processing issues on 'Master' with source code encoding 'UTF-8'
+[PMD] Creating SCM blamer to obtain author and commit information for affected files
+[PMD] -> No blamer installed yet. You need to install the 'git-forensics' plugin to enable blaming for Git.
+[PMD] Resolving file names for all issues in workspace '/var/lib/jenkins/workspace/declarative-pipeline'
+[PMD] -> resolved paths in source directory (6 found, 0 not found)
+[PMD] Resolving module names from module definitions (build.xml, pom.xml, or Manifest.mf files)
+[PMD] -> resolved module names for 12 issues
+[PMD] Resolving package names (or namespaces) by parsing the affected files
+[PMD] -> all affected files already have a valid package name
+[PMD] No filter has been set, publishing all 12 issues
+[PMD] Creating fingerprints for all affected code blocks to track issues over different builds
+[PMD] -> created fingerprints for 12 issues (skipped 0 issues)
+[PMD] Copying affected files to Jenkins' build folder '/var/lib/jenkins/jobs/declarative-pipeline/builds/18/files-with-issues'
+[PMD] -> 6 copied, 0 not in workspace, 0 not-found, 0 with I/O error
+[PMD] Skipping cleaning of source code files in old builds
+[PMD] Repository miner is not configured, skipping repository mining
+[PMD] Reference build recorder is not configured
+[PMD] No valid reference build found
+[PMD] All reported issues will be considered outstanding
+[PMD] No quality gates have been set - skipping
+[PMD] Health report is disabled - skipping
+[PMD] Created analysis result for 12 issues (found 0 new issues, fixed 0 issues)
+[PMD] Attaching ResultAction with ID 'pmd' to build 'declarative-pipeline #18'.
+[Checks API] No suitable checks publisher found.
+[8mha:////4Fha0YZ9zy4WuXileJz7nPLOQ2iNq7tmEmW/IQGGQELuAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBVEhqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyj3da768AHXsPqXvgAAAA==[0m[Pipeline] }
+[8mha:////4MNNq5EBnCJtn/ao30kOY3NTPAwp+2QdYtCglnENKpVUAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKRCB2iSmul4QUmPowT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYMRPdJgKXZWeDeavMTEYbg6nkTPF9ExRXYoWpxa1tgs2HJCWFKUsJKwQeocR0smwVb26qEqp8hU5xTyd5RQWn2HJxQym5MK6QtzgN1t1JHp5/krgNn7BGVd59ofPuRToSu+AAAA[0m[Pipeline] // stage
+[8mha:////4HkXIDHl5voLE8/6wV/qjjh7KXM0DO0Tlm5CI2r4v2EjAAAApR+LCAAAAAAAAP9tjTsOwjAQRDdBFLSUHGIjPh1KRWu54QQmMcaJtRtsB6fiRFyNO2ARiYopRvOmea83LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Iddu+wHTl85GvgAAAA==[0m[Pipeline] }
+[8mha:////4HszxhIXS/QnKGd3YNPAngrH755ioP5MFoWC5V3mA/a7AAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihJCQUCpayw0vMIkxTqy7YDs4FS/ia/wBi0hUbLHa2WZeb1gGDzV7g52m3lJoLA5uNHlhYt9fHSfs+IINU2CnUeokudWnGSVHDXOKEhYCVpoax8GSibAWnXqoyiky1Tn6/B0FlLa9wxMKkc1R+fiFycPmNraB6ef5K4BpGCKUu32u7eEDEa9j374AAAA=[0m[Pipeline] // parallel
+[8mha:////4CubSW8TsimR1e9rH/c0dWxqGHiRqccKL5sOsgBmXq7fAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihAQFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryt8+1PXwALsBIyb4AAAA=[0m[Pipeline] }
+[8mha:////4Im1FJbctNaybvlV6+9/j+BYna3hm7VLGbWAye/joIW7AAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihAQFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryd8i13X8AHSMTdb4AAAA=[0m[Pipeline] // stage
+[8mha:////4JZs7aQMsIe5ztf3z8bYPeHUM1kWngE0JTxWWv0M1XK7AAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYRTQIGEqGgtN7zAxMY4se6CfSGpeBFf4w8EIlGx1c5Kq3m+oMwJDpS8bBy2AXMdZBd7PzU5UGovkQbZ0FnWhJmik9oNmqw7zqiJHcwRBSwULB3WkXJAz7BSjbmbKhr01YnTtO0VFMHe4AFCTWY2ib8wJlhfe5sJf56/Ahg7BrFlKDa7z7F8A/J35irBAAAA[0m[Pipeline] stage
+[8mha:////4E9q+fR5K00s1my0uH9JhUI1ewmUFElkFVOyHdjsqk8oAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0YAEhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD59NhPHCAAAA[0m[Pipeline] { (code package)
+[8mha:////4FpLEcbPmoyku/FD8ASUmNsAXr0PUGPFJh/YgVLyNCuyAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCBA1CqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKYhQrk75Npvhw/W61xwvgAAAA==[0m[Pipeline] sh
++ mvn package
+[[1;34mINFO[m] Scanning for projects...
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for com.edurekademo.tutorial:addressbook:war:2.0
+[[1;33mWARNING[m] Reporting configuration should be done in <reporting> section, not in maven-site-plugin <configuration> as reportPlugins parameter. @ line 298, column 40
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] It is highly recommended to fix these problems because they threaten the stability of your build.
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] For this reason, future Maven versions might no longer support building such malformed projects.
+[[1;33mWARNING[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m----------------< [0;36mcom.edurekademo.tutorial:addressbook[0;1m >----------------[m
+[[1;34mINFO[m] [1mBuilding Vaadin Addressbook example 2.0[m
+[[1;34mINFO[m] [1m--------------------------------[ war ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:1.0:enforce[m [1m(enforce-versions)[m @ [36maddressbook[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36maddressbook[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /var/lib/jenkins/workspace/declarative-pipeline/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.2:compile[m [1m(default-compile)[m @ [36maddressbook[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36maddressbook[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.2:testCompile[m [1m(default-testCompile)[m @ [36maddressbook[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.19.1:test[m [1m(default-test)[m @ [36maddressbook[0;1m ---[m
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.edurekademo.utilities.TestHexAsciiConversion
+testing ascii convertion into hexadecimal
+74657374696e6720617363696920636f6e76657274696f6e20696e746f2068657861646563696d616c
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec - in com.edurekademo.utilities.TestHexAsciiConversion
+Running com.edurekademo.utilities.TestLogger
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/lib/jenkins/.m2/repository/org/slf4j/slf4j-simple/1.7.7/slf4j-simple-1.7.7.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/var/lib/jenkins/.m2/repository/org/slf4j/slf4j-log4j12/1.7.7/slf4j-log4j12-1.7.7.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.SimpleLoggerFactory]
+[pool-1-thread-6] INFO com.edurekademo.utilities.TestLogger - java.lang.ArithmeticException: / by zero
+Cause:at com.edurekademo.utilities.TestLogger.testGetErrorMessage2(TestLogger.java:30)
+Cause:at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[pool-1-thread-5] INFO com.edurekademo.utilities.TestLogger - java.lang.ArithmeticException: / by zero
+Cause:at com.edurekademo.utilities.TestLogger.testGetErrorMessage1(TestLogger.java:14)
+Cause:at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[pool-1-thread-7] INFO com.edurekademo.utilities.TestLogger - java.lang.ArithmeticException: / by zero
+Cause:at com.edurekademo.utilities.ExceptionThrower.getCounter(ExceptionThrower.java:13)
+Cause:at com.edurekademo.utilities.TestLogger.testGetErrorMessage3(TestLogger.java:45)
+[pool-1-thread-8] INFO com.edurekademo.utilities.TestLogger - java.io.IOException: TESTIOEXCEPTION
+Cause:at com.edurekademo.utilities.ExceptionThrower.doNothing(ExceptionThrower.java:18)
+Cause:at com.edurekademo.utilities.TestLogger.testGetErrorMessage4(TestLogger.java:60)
+[pool-1-thread-9] ERROR com.edurekademo.utilities.ExceptionThrower - java.lang.Exception: DEAR
+Cause:at com.edurekademo.utilities.ExceptionThrower.doYYY(ExceptionThrower.java:35)
+Cause:at com.edurekademo.utilities.ExceptionThrower.doXXX(ExceptionThrower.java:23)
+[pool-1-thread-9] INFO com.edurekademo.utilities.TestLogger - java.lang.Exception: TEST MESSAGE
+Cause:at com.edurekademo.utilities.ExceptionThrower.doCheck(ExceptionThrower.java:43)
+Cause:at com.edurekademo.utilities.TestLogger.testGetErrorMessage5(TestLogger.java:75)
+***** java.lang.Exception: TEST MESSAGE
+Cause:at com.edurekademo.utilities.ExceptionThrower.doCheck(ExceptionThrower.java:43)
+Cause:at com.edurekademo.utilities.TestLogger.testGetErrorMessage5(TestLogger.java:75)
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.092 sec - in com.edurekademo.utilities.TestLogger
+Running com.edurekademo.utilities.TestGenericComparator
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.078 sec - in com.edurekademo.utilities.TestGenericComparator
+
+Results :
+
+Tests run: 23, Failures: 0, Errors: 0, Skipped: 0
+
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-war-plugin:2.2:war[m [1m(default-war)[m @ [36maddressbook[0;1m ---[m
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.thoughtworks.xstream.core.util.Fields (file:/var/lib/jenkins/.m2/repository/com/thoughtworks/xstream/xstream/1.3.1/xstream-1.3.1.jar) to field java.util.Properties.defaults
+WARNING: Please consider reporting this to the maintainers of com.thoughtworks.xstream.core.util.Fields
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[[1;34mINFO[m] Packaging webapp
+[[1;34mINFO[m] Assembling webapp [addressbook] in [/var/lib/jenkins/workspace/declarative-pipeline/target/addressbook]
+[[1;34mINFO[m] Processing war project
+[[1;34mINFO[m] Webapp assembled in [168 msecs]
+[[1;34mINFO[m] Building war: /var/lib/jenkins/workspace/declarative-pipeline/target/addressbook.war
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  5.702 s
+[[1;34mINFO[m] Finished at: 2024-04-02T11:02:17Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[8mha:////4JoXem8VILhbNty0EHZvRMR1RRP4JCm8snzz8nlV5/xdAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBA1CqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw+dgWTEvgAAAA==[0m[Pipeline] }
+[8mha:////4AMiz4D+4OiYH7xXfCx78dFl6+3Py57IBRPhKETsGMYiAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAQUSSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wApcP3Nb4AAAA=[0m[Pipeline] // stage
+[8mha:////4APufy3KS0+M8f6it4InkX7YI+XchCtrruajYsYi9+dyAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYRTkA5R0VpueIFJjHFi3QX7QlLxIr7GHzBEomKrnZVW83xBmSIcKDrZWew9psbLIYwuNzlR7C+BJtnRWTaEiYKV2k6aWntcUBNbWCIKWClYW2wCJY+OYaM6czdVMOiqE8e87RUUvr3BA4TKZjaRvzBH2F7HNhH+PH8FMA8MomYo6t3nWL4Bv7mGhcEAAAA=[0m[Pipeline] stage
+[8mha:////4GViq1z1VJ+TRY/SAMCkifYHlG3mpKz71M8tS59pRX2RAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoh0oBtiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsPBA4E38IAAAA=[0m[Pipeline] { (deploy)
+[8mha:////4E64i0KmuDQOCky34ZQ+rD8YADVPqejLg3wbXplBdaeKAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaegjSxMqxsmVoPAEmiBDmfwJEUnkir+YdRDNj5RY7+7Z5zxesY4AjBc2swsFg7AzzbtJlsUxhuDrKzNKFdYSRnGJCZUG9Oi0oKClYUtWw4rBR2DmKBnWCLbfyLhsnUTfnFMp34FCbfoQHVLyYkwzpC3OA3W3qI+HP81cAs09Qt+2n9v4NSnc5Zr4AAAA=[0m[Pipeline] sh
++ sudo cp -f /var/lib/jenkins/workspace/declarative-pipeline/target/addressbook.war /opt/tomcat/webapps/
+[8mha:////4IcpAGZtMU7TCTd6BY4waxEQmYoYQDt8NpWb73P8+j8+AAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaegjSZGwcK1uGxhNggghh/idAJJUn8mreQTQzVm6xs2+b93zBOgY4UtDMKhwMxs4w7yZdFssUhqujzCxdWEcYySkmVBbUq9OCgpKCJVUNKw4bhZ2jaFAn2HIr77JxEnVzTqF8Bw616Ud4QMWLOcmQvjAH2N2mPhL+PH8FMHufoG73n2rfX1uR6L4AAAA=[0m[Pipeline] }
+[8mha:////4Eu9Bn1Jm+vQrVNBmEScXWnOZ26FIhADN8lSNomP3NMnAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSgESBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgFZHam9vgAAAA==[0m[Pipeline] // stage
+[8mha:////4Cp0JL4T/8Rja5h/zum2LA65TWSycQQu4Gm/ZoWOy6S6AAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IsDCbGybVh8Qsq1Fpo3sP2IUx+kb/mP0gkcfJO95zlvN5Yp4gjR6daS52nVHvVh8HNT40cu2vgUbV8UTVT4mBVZceKG3tasGKxWJblWGlsLNWBkycn2OrWPEwRDLniLHF2B43cN3c8kem5LCbKF6aI3W1oEtOv8zeAqe8FebkXZOUH9/H4sr0AAAA=[0m[Pipeline] }
+[8mha:////4BdRDu1z8Fi2vCgOF9d5AkmhXFbKXPqPHGaxt+x0293LAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpoEGIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLcXZNsP5E38Eb0AAAA=[0m[Pipeline] // node
+[8mha:////4NqgIafchR85b/mvhC9SJxSz4pCQO6r0lX0UuWuOl8DVAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJBSFSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfL8VZLsPpsy3oL0AAAA=[0m[Pipeline] End of Pipeline
+Finished: SUCCESS

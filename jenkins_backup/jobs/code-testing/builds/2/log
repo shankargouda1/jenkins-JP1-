@@ -1,0 +1,122 @@
+Started by user [8mha:////4KaMPlV5yHxbDXdrPbDTfewriqxoPvHXkCxNN0wEeI63AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL94syUlFIAnjHM9cAAAAA=[0msiddu
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/code-testing
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/code-testing/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/shankargouda1/DevOpsClassCodes # timeout=10
+Fetching upstream changes from https://github.com/shankargouda1/DevOpsClassCodes
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git fetch --tags --force --progress -- https://github.com/shankargouda1/DevOpsClassCodes +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 8452c87e0a65675c85d153af99bfa8fec4da2c5b (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 8452c87e0a65675c85d153af99bfa8fec4da2c5b # timeout=10
+Commit message: "Update Jenkinsfile3"
+First time build. Skipping changelog.
+[code-testing] $ mvn test
+[[1;34mINFO[m] Scanning for projects...
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for com.edurekademo.tutorial:addressbook:war:2.0
+[[1;33mWARNING[m] Reporting configuration should be done in <reporting> section, not in maven-site-plugin <configuration> as reportPlugins parameter. @ line 298, column 40
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] It is highly recommended to fix these problems because they threaten the stability of your build.
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] For this reason, future Maven versions might no longer support building such malformed projects.
+[[1;33mWARNING[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m----------------< [0;36mcom.edurekademo.tutorial:addressbook[0;1m >----------------[m
+[[1;34mINFO[m] [1mBuilding Vaadin Addressbook example 2.0[m
+[[1;34mINFO[m] [1m--------------------------------[ war ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:1.0:enforce[m [1m(enforce-versions)[m @ [36maddressbook[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36maddressbook[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /var/lib/jenkins/workspace/code-testing/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.2:compile[m [1m(default-compile)[m @ [36maddressbook[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 13 source files to /var/lib/jenkins/workspace/code-testing/target/classes
+[[1;34mINFO[m] /var/lib/jenkins/workspace/code-testing/src/main/java/com/edurekademo/tutorial/addressbook/AddressbookUI.java: Some input files use or override a deprecated API.
+[[1;34mINFO[m] /var/lib/jenkins/workspace/code-testing/src/main/java/com/edurekademo/tutorial/addressbook/AddressbookUI.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] /var/lib/jenkins/workspace/code-testing/src/main/java/com/edurekademo/tutorial/addressbook/backend/ContactService.java: /var/lib/jenkins/workspace/code-testing/src/main/java/com/edurekademo/tutorial/addressbook/backend/ContactService.java uses unchecked or unsafe operations.
+[[1;34mINFO[m] /var/lib/jenkins/workspace/code-testing/src/main/java/com/edurekademo/tutorial/addressbook/backend/ContactService.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36maddressbook[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.2:testCompile[m [1m(default-testCompile)[m @ [36maddressbook[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 5 source files to /var/lib/jenkins/workspace/code-testing/target/test-classes
+[[1;34mINFO[m] /var/lib/jenkins/workspace/code-testing/src/test/java/com/edurekademo/utilities/TestGenericComparator.java: /var/lib/jenkins/workspace/code-testing/src/test/java/com/edurekademo/utilities/TestGenericComparator.java uses or overrides a deprecated API.
+[[1;34mINFO[m] /var/lib/jenkins/workspace/code-testing/src/test/java/com/edurekademo/utilities/TestGenericComparator.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.19.1:test[m [1m(default-test)[m @ [36maddressbook[0;1m ---[m
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit47/2.19.1/surefire-junit47-2.19.1.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/2.19.1/common-java5-2.19.1.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit4/2.19.1/common-junit4-2.19.1.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit3/2.19.1/common-junit3-2.19.1.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit48/2.19.1/common-junit48-2.19.1.jar
+Progress (1): 2.8/44 kBProgress (2): 2.8/44 kB | 2.8/26 kBProgress (3): 2.8/44 kB | 2.8/26 kB | 2.8/23 kBProgress (3): 2.8/44 kB | 2.8/26 kB | 5.5/23 kBProgress (3): 2.8/44 kB | 2.8/26 kB | 8.3/23 kBProgress (4): 2.8/44 kB | 2.8/26 kB | 8.3/23 kB | 2.8/12 kBProgress (4): 5.5/44 kB | 2.8/26 kB | 8.3/23 kB | 2.8/12 kBProgress (4): 5.5/44 kB | 2.8/26 kB | 8.3/23 kB | 5.5/12 kBProgress (4): 5.5/44 kB | 5.5/26 kB | 8.3/23 kB | 5.5/12 kBProgress (4): 5.5/44 kB | 5.5/26 kB | 11/23 kB | 5.5/12 kB Progress (4): 8.3/44 kB | 5.5/26 kB | 11/23 kB | 5.5/12 kBProgress (5): 8.3/44 kB | 5.5/26 kB | 11/23 kB | 5.5/12 kB | 4.1/153 kBProgress (5): 8.3/44 kB | 5.5/26 kB | 11/23 kB | 5.5/12 kB | 8.2/153 kBProgress (5): 8.3/44 kB | 5.5/26 kB | 14/23 kB | 5.5/12 kB | 8.2/153 kBProgress (5): 8.3/44 kB | 5.5/26 kB | 14/23 kB | 8.3/12 kB | 8.2/153 kBProgress (5): 11/44 kB | 5.5/26 kB | 14/23 kB | 8.3/12 kB | 8.2/153 kB Progress (5): 11/44 kB | 5.5/26 kB | 14/23 kB | 8.3/12 kB | 12/153 kB Progress (5): 11/44 kB | 8.3/26 kB | 14/23 kB | 8.3/12 kB | 12/153 kBProgress (5): 14/44 kB | 8.3/26 kB | 14/23 kB | 8.3/12 kB | 12/153 kBProgress (5): 14/44 kB | 11/26 kB | 14/23 kB | 8.3/12 kB | 12/153 kB Progress (5): 14/44 kB | 11/26 kB | 14/23 kB | 11/12 kB | 12/153 kB Progress (5): 14/44 kB | 14/26 kB | 14/23 kB | 11/12 kB | 12/153 kBProgress (5): 17/44 kB | 14/26 kB | 14/23 kB | 11/12 kB | 12/153 kBProgress (5): 17/44 kB | 17/26 kB | 14/23 kB | 11/12 kB | 12/153 kBProgress (5): 17/44 kB | 17/26 kB | 14/23 kB | 12 kB | 12/153 kB   Progress (5): 17/44 kB | 19/26 kB | 14/23 kB | 12 kB | 12/153 kBProgress (5): 17/44 kB | 22/26 kB | 14/23 kB | 12 kB | 12/153 kBProgress (5): 17/44 kB | 22/26 kB | 14/23 kB | 12 kB | 16/153 kBProgress (5): 17/44 kB | 22/26 kB | 17/23 kB | 12 kB | 16/153 kBProgress (5): 19/44 kB | 22/26 kB | 17/23 kB | 12 kB | 16/153 kBProgress (5): 19/44 kB | 22/26 kB | 19/23 kB | 12 kB | 16/153 kB                                                                Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit3/2.19.1/common-junit3-2.19.1.jar (12 kB at 16 kB/s)
+Progress (4): 19/44 kB | 22/26 kB | 19/23 kB | 20/153 kBProgress (4): 22/44 kB | 22/26 kB | 19/23 kB | 20/153 kBProgress (4): 22/44 kB | 25/26 kB | 19/23 kB | 20/153 kBProgress (4): 22/44 kB | 26 kB | 19/23 kB | 20/153 kB   Progress (4): 22/44 kB | 26 kB | 22/23 kB | 20/153 kBProgress (4): 22/44 kB | 26 kB | 23 kB | 20/153 kB   Progress (4): 22/44 kB | 26 kB | 23 kB | 25/153 kBProgress (4): 25/44 kB | 26 kB | 23 kB | 25/153 kBProgress (4): 25/44 kB | 26 kB | 23 kB | 29/153 kB                                                  Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/0.9/maven-shared-utils-0.9.jar
+Progress (4): 25/44 kB | 26 kB | 23 kB | 33/153 kBProgress (4): 28/44 kB | 26 kB | 23 kB | 33/153 kBProgress (4): 30/44 kB | 26 kB | 23 kB | 33/153 kBProgress (4): 33/44 kB | 26 kB | 23 kB | 33/153 kBProgress (4): 36/44 kB | 26 kB | 23 kB | 33/153 kBProgress (4): 39/44 kB | 26 kB | 23 kB | 33/153 kB                                                  Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit4/2.19.1/common-junit4-2.19.1.jar (26 kB at 33 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit48/2.19.1/common-junit48-2.19.1.jar (23 kB at 28 kB/s)
+Progress (3): 39/44 kB | 33/153 kB | 4.1/172 kBProgress (3): 39/44 kB | 33/153 kB | 8.2/172 kBProgress (3): 39/44 kB | 37/153 kB | 8.2/172 kBProgress (3): 39/44 kB | 37/153 kB | 12/172 kB Progress (3): 41/44 kB | 37/153 kB | 12/172 kBProgress (3): 41/44 kB | 41/153 kB | 12/172 kBProgress (3): 44 kB | 41/153 kB | 12/172 kB                                              Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-grouper/2.19.1/surefire-grouper-2.19.1.jar
+Progress (3): 44 kB | 45/153 kB | 12/172 kBProgress (3): 44 kB | 49/153 kB | 12/172 kB                                           Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/2.19.1/common-java5-2.19.1.jar (44 kB at 54 kB/s)
+Progress (3): 49/153 kB | 12/172 kB | 2.8/38 kBProgress (3): 49/153 kB | 16/172 kB | 2.8/38 kBProgress (3): 49/153 kB | 20/172 kB | 2.8/38 kBProgress (3): 53/153 kB | 20/172 kB | 2.8/38 kBProgress (3): 57/153 kB | 20/172 kB | 2.8/38 kBProgress (3): 61/153 kB | 20/172 kB | 2.8/38 kBProgress (3): 66/153 kB | 20/172 kB | 2.8/38 kBProgress (3): 66/153 kB | 20/172 kB | 5.5/38 kBProgress (3): 66/153 kB | 20/172 kB | 8.3/38 kBProgress (3): 66/153 kB | 20/172 kB | 11/38 kB Progress (3): 66/153 kB | 20/172 kB | 14/38 kBProgress (3): 66/153 kB | 20/172 kB | 17/38 kBProgress (3): 70/153 kB | 20/172 kB | 17/38 kBProgress (3): 70/153 kB | 25/172 kB | 17/38 kBProgress (3): 70/153 kB | 29/172 kB | 17/38 kBProgress (3): 70/153 kB | 33/172 kB | 17/38 kBProgress (3): 74/153 kB | 33/172 kB | 17/38 kBProgress (3): 78/153 kB | 33/172 kB | 17/38 kBProgress (3): 82/153 kB | 33/172 kB | 17/38 kBProgress (3): 86/153 kB | 33/172 kB | 17/38 kBProgress (3): 90/153 kB | 33/172 kB | 17/38 kBProgress (3): 90/153 kB | 37/172 kB | 17/38 kBProgress (3): 90/153 kB | 41/172 kB | 17/38 kBProgress (3): 90/153 kB | 45/172 kB | 17/38 kBProgress (3): 90/153 kB | 49/172 kB | 17/38 kBProgress (3): 90/153 kB | 53/172 kB | 17/38 kBProgress (3): 90/153 kB | 57/172 kB | 17/38 kBProgress (3): 90/153 kB | 61/172 kB | 17/38 kBProgress (3): 90/153 kB | 66/172 kB | 17/38 kBProgress (3): 90/153 kB | 66/172 kB | 20/38 kBProgress (3): 90/153 kB | 66/172 kB | 23/38 kBProgress (3): 90/153 kB | 66/172 kB | 25/38 kBProgress (3): 90/153 kB | 66/172 kB | 28/38 kBProgress (3): 90/153 kB | 66/172 kB | 31/38 kBProgress (3): 90/153 kB | 66/172 kB | 34/38 kBProgress (3): 90/153 kB | 66/172 kB | 36/38 kBProgress (3): 94/153 kB | 66/172 kB | 36/38 kBProgress (3): 98/153 kB | 66/172 kB | 36/38 kBProgress (3): 98/153 kB | 70/172 kB | 36/38 kBProgress (3): 98/153 kB | 74/172 kB | 36/38 kBProgress (3): 98/153 kB | 78/172 kB | 36/38 kBProgress (3): 98/153 kB | 82/172 kB | 36/38 kBProgress (3): 98/153 kB | 86/172 kB | 36/38 kBProgress (3): 102/153 kB | 86/172 kB | 36/38 kBProgress (3): 106/153 kB | 86/172 kB | 36/38 kBProgress (3): 111/153 kB | 86/172 kB | 36/38 kBProgress (3): 115/153 kB | 86/172 kB | 36/38 kBProgress (3): 119/153 kB | 86/172 kB | 36/38 kBProgress (3): 123/153 kB | 86/172 kB | 36/38 kBProgress (3): 127/153 kB | 86/172 kB | 36/38 kBProgress (3): 131/153 kB | 86/172 kB | 36/38 kBProgress (3): 131/153 kB | 86/172 kB | 38 kB   Progress (3): 131/153 kB | 90/172 kB | 38 kBProgress (3): 131/153 kB | 94/172 kB | 38 kBProgress (3): 131/153 kB | 98/172 kB | 38 kB                                            Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-grouper/2.19.1/surefire-grouper-2.19.1.jar (38 kB at 457 kB/s)
+Progress (2): 135/153 kB | 98/172 kBProgress (2): 139/153 kB | 98/172 kBProgress (2): 139/153 kB | 102/172 kBProgress (2): 139/153 kB | 106/172 kBProgress (2): 139/153 kB | 111/172 kBProgress (2): 139/153 kB | 115/172 kBProgress (2): 139/153 kB | 119/172 kBProgress (2): 139/153 kB | 123/172 kBProgress (2): 139/153 kB | 127/172 kBProgress (2): 139/153 kB | 131/172 kBProgress (2): 143/153 kB | 131/172 kBProgress (2): 147/153 kB | 131/172 kBProgress (2): 152/153 kB | 131/172 kBProgress (2): 153 kB | 131/172 kB    Progress (2): 153 kB | 135/172 kBProgress (2): 153 kB | 139/172 kB                                 Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit47/2.19.1/surefire-junit47-2.19.1.jar (153 kB at 165 kB/s)
+Progress (1): 143/172 kBProgress (1): 147/172 kBProgress (1): 152/172 kBProgress (1): 156/172 kBProgress (1): 160/172 kBProgress (1): 164/172 kBProgress (1): 168/172 kBProgress (1): 172 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/0.9/maven-shared-utils-0.9.jar (172 kB at 863 kB/s)
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.edurekademo.utilities.TestHexAsciiConversion
+testing ascii convertion into hexadecimal
+74657374696e6720617363696920636f6e76657274696f6e20696e746f2068657861646563696d616c
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 sec - in com.edurekademo.utilities.TestHexAsciiConversion
+Running com.edurekademo.utilities.TestLogger
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/lib/jenkins/.m2/repository/org/slf4j/slf4j-simple/1.7.7/slf4j-simple-1.7.7.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/var/lib/jenkins/.m2/repository/org/slf4j/slf4j-log4j12/1.7.7/slf4j-log4j12-1.7.7.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.SimpleLoggerFactory]
+[pool-1-thread-5] INFO com.edurekademo.utilities.TestLogger - java.lang.ArithmeticException: / by zero
+Cause:at com.edurekademo.utilities.TestLogger.testGetErrorMessage1(TestLogger.java:14)
+Cause:at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[pool-1-thread-6] INFO com.edurekademo.utilities.TestLogger - java.lang.ArithmeticException: / by zero
+Cause:at com.edurekademo.utilities.TestLogger.testGetErrorMessage2(TestLogger.java:30)
+Cause:at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[pool-1-thread-7] INFO com.edurekademo.utilities.TestLogger - java.lang.ArithmeticException: / by zero
+Cause:at com.edurekademo.utilities.ExceptionThrower.getCounter(ExceptionThrower.java:13)
+Cause:at com.edurekademo.utilities.TestLogger.testGetErrorMessage3(TestLogger.java:45)
+[pool-1-thread-8] INFO com.edurekademo.utilities.TestLogger - java.io.IOException: TESTIOEXCEPTION
+Cause:at com.edurekademo.utilities.ExceptionThrower.doNothing(ExceptionThrower.java:18)
+Cause:at com.edurekademo.utilities.TestLogger.testGetErrorMessage4(TestLogger.java:60)
+[pool-1-thread-9] ERROR com.edurekademo.utilities.ExceptionThrower - java.lang.Exception: DEAR
+Cause:at com.edurekademo.utilities.ExceptionThrower.doYYY(ExceptionThrower.java:35)
+Cause:at com.edurekademo.utilities.ExceptionThrower.doXXX(ExceptionThrower.java:23)
+[pool-1-thread-9] INFO com.edurekademo.utilities.TestLogger - java.lang.Exception: TEST MESSAGE
+Cause:at com.edurekademo.utilities.ExceptionThrower.doCheck(ExceptionThrower.java:43)
+Cause:at com.edurekademo.utilities.TestLogger.testGetErrorMessage5(TestLogger.java:75)
+***** java.lang.Exception: TEST MESSAGE
+Cause:at com.edurekademo.utilities.ExceptionThrower.doCheck(ExceptionThrower.java:43)
+Cause:at com.edurekademo.utilities.TestLogger.testGetErrorMessage5(TestLogger.java:75)
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.121 sec - in com.edurekademo.utilities.TestLogger
+Running com.edurekademo.utilities.TestGenericComparator
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 sec - in com.edurekademo.utilities.TestGenericComparator
+
+Results :
+
+Tests run: 23, Failures: 0, Errors: 0, Skipped: 0
+
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  9.140 s
+[[1;34mINFO[m] Finished at: 2024-03-27T12:03:10Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+Finished: SUCCESS

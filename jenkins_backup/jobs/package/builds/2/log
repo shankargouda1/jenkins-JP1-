@@ -1,0 +1,169 @@
+Started by user [8mha:////4KaMPlV5yHxbDXdrPbDTfewriqxoPvHXkCxNN0wEeI63AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL94syUlFIAnjHM9cAAAAA=[0msiddu
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/package
+The recommended git tool is: NONE
+using credential github-token2
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/package/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/shankargouda1/DevOpsClassCodes # timeout=10
+Fetching upstream changes from https://github.com/shankargouda1/DevOpsClassCodes
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --force --progress -- https://github.com/shankargouda1/DevOpsClassCodes +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 8452c87e0a65675c85d153af99bfa8fec4da2c5b (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 8452c87e0a65675c85d153af99bfa8fec4da2c5b # timeout=10
+Commit message: "Update Jenkinsfile3"
+First time build. Skipping changelog.
+[package] $ mvn package
+[[1;34mINFO[m] Scanning for projects...
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for com.edurekademo.tutorial:addressbook:war:2.0
+[[1;33mWARNING[m] Reporting configuration should be done in <reporting> section, not in maven-site-plugin <configuration> as reportPlugins parameter. @ line 298, column 40
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] It is highly recommended to fix these problems because they threaten the stability of your build.
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] For this reason, future Maven versions might no longer support building such malformed projects.
+[[1;33mWARNING[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m----------------< [0;36mcom.edurekademo.tutorial:addressbook[0;1m >----------------[m
+[[1;34mINFO[m] [1mBuilding Vaadin Addressbook example 2.0[m
+[[1;34mINFO[m] [1m--------------------------------[ war ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:1.0:enforce[m [1m(enforce-versions)[m @ [36maddressbook[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36maddressbook[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /var/lib/jenkins/workspace/package/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.2:compile[m [1m(default-compile)[m @ [36maddressbook[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 13 source files to /var/lib/jenkins/workspace/package/target/classes
+[[1;34mINFO[m] /var/lib/jenkins/workspace/package/src/main/java/com/edurekademo/tutorial/addressbook/AddressbookUI.java: Some input files use or override a deprecated API.
+[[1;34mINFO[m] /var/lib/jenkins/workspace/package/src/main/java/com/edurekademo/tutorial/addressbook/AddressbookUI.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] /var/lib/jenkins/workspace/package/src/main/java/com/edurekademo/tutorial/addressbook/backend/ContactService.java: /var/lib/jenkins/workspace/package/src/main/java/com/edurekademo/tutorial/addressbook/backend/ContactService.java uses unchecked or unsafe operations.
+[[1;34mINFO[m] /var/lib/jenkins/workspace/package/src/main/java/com/edurekademo/tutorial/addressbook/backend/ContactService.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36maddressbook[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.2:testCompile[m [1m(default-testCompile)[m @ [36maddressbook[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 5 source files to /var/lib/jenkins/workspace/package/target/test-classes
+[[1;34mINFO[m] /var/lib/jenkins/workspace/package/src/test/java/com/edurekademo/utilities/TestGenericComparator.java: /var/lib/jenkins/workspace/package/src/test/java/com/edurekademo/utilities/TestGenericComparator.java uses or overrides a deprecated API.
+[[1;34mINFO[m] /var/lib/jenkins/workspace/package/src/test/java/com/edurekademo/utilities/TestGenericComparator.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.19.1:test[m [1m(default-test)[m @ [36maddressbook[0;1m ---[m
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.edurekademo.utilities.TestHexAsciiConversion
+74657374696e6720617363696920636f6e76657274696f6e20696e746f2068657861646563696d616c
+testing ascii convertion into hexadecimal
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 sec - in com.edurekademo.utilities.TestHexAsciiConversion
+Running com.edurekademo.utilities.TestLogger
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/var/lib/jenkins/.m2/repository/org/slf4j/slf4j-simple/1.7.7/slf4j-simple-1.7.7.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/var/lib/jenkins/.m2/repository/org/slf4j/slf4j-log4j12/1.7.7/slf4j-log4j12-1.7.7.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.SimpleLoggerFactory]
+[pool-1-thread-5] INFO com.edurekademo.utilities.TestLogger - java.lang.ArithmeticException: / by zero
+Cause:at com.edurekademo.utilities.TestLogger.testGetErrorMessage1(TestLogger.java:14)
+Cause:at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[pool-1-thread-6] INFO com.edurekademo.utilities.TestLogger - java.lang.ArithmeticException: / by zero
+Cause:at com.edurekademo.utilities.TestLogger.testGetErrorMessage2(TestLogger.java:30)
+Cause:at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[pool-1-thread-7] INFO com.edurekademo.utilities.TestLogger - java.lang.ArithmeticException: / by zero
+Cause:at com.edurekademo.utilities.ExceptionThrower.getCounter(ExceptionThrower.java:13)
+Cause:at com.edurekademo.utilities.TestLogger.testGetErrorMessage3(TestLogger.java:45)
+[pool-1-thread-8] INFO com.edurekademo.utilities.TestLogger - java.io.IOException: TESTIOEXCEPTION
+Cause:at com.edurekademo.utilities.ExceptionThrower.doNothing(ExceptionThrower.java:18)
+Cause:at com.edurekademo.utilities.TestLogger.testGetErrorMessage4(TestLogger.java:60)
+[pool-1-thread-9] ERROR com.edurekademo.utilities.ExceptionThrower - java.lang.Exception: DEAR
+Cause:at com.edurekademo.utilities.ExceptionThrower.doYYY(ExceptionThrower.java:35)
+Cause:at com.edurekademo.utilities.ExceptionThrower.doXXX(ExceptionThrower.java:23)
+[pool-1-thread-9] INFO com.edurekademo.utilities.TestLogger - java.lang.Exception: TEST MESSAGE
+Cause:at com.edurekademo.utilities.ExceptionThrower.doCheck(ExceptionThrower.java:43)
+Cause:at com.edurekademo.utilities.TestLogger.testGetErrorMessage5(TestLogger.java:75)
+***** java.lang.Exception: TEST MESSAGE
+Cause:at com.edurekademo.utilities.ExceptionThrower.doCheck(ExceptionThrower.java:43)
+Cause:at com.edurekademo.utilities.TestLogger.testGetErrorMessage5(TestLogger.java:75)
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.127 sec - in com.edurekademo.utilities.TestLogger
+Running com.edurekademo.utilities.TestGenericComparator
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.061 sec - in com.edurekademo.utilities.TestGenericComparator
+
+Results :
+
+Tests run: 23, Failures: 0, Errors: 0, Skipped: 0
+
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-war-plugin:2.2:war[m [1m(default-war)[m @ [36maddressbook[0;1m ---[m
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/2.5/maven-archiver-2.5.pom
+Progress (1): 2.8/4.5 kBProgress (1): 4.5 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/2.5/maven-archiver-2.5.pom (4.5 kB at 8.2 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/2.1/plexus-archiver-2.1.pom
+Progress (1): 2.8/2.8 kBProgress (1): 2.8 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/2.1/plexus-archiver-2.1.pom (2.8 kB at 156 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0/plexus-utils-3.0.pom
+Progress (1): 2.8/4.1 kBProgress (1): 4.1 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0/plexus-utils-3.0.pom (4.1 kB at 169 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/spice/spice-parent/16/spice-parent-16.pom
+Progress (1): 2.8/8.4 kBProgress (1): 5.5/8.4 kBProgress (1): 8.3/8.4 kBProgress (1): 8.4 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/spice/spice-parent/16/spice-parent-16.pom (8.4 kB at 418 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/forge/forge-parent/5/forge-parent-5.pom
+Progress (1): 2.8/8.4 kBProgress (1): 5.5/8.4 kBProgress (1): 8.3/8.4 kBProgress (1): 8.4 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/forge/forge-parent/5/forge-parent-5.pom (8.4 kB at 440 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.0.2/plexus-io-2.0.2.pom
+Progress (1): 1.7 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.0.2/plexus-io-2.0.2.pom (1.7 kB at 116 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/1.1.19/plexus-components-1.1.19.pom
+Progress (1): 2.7 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/1.1.19/plexus-components-1.1.19.pom (2.7 kB at 142 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.15/plexus-interpolation-1.15.pom
+Progress (1): 1.0 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.15/plexus-interpolation-1.15.pom (1.0 kB at 78 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/thoughtworks/xstream/xstream/1.3.1/xstream-1.3.1.pom
+Progress (1): 2.8/11 kBProgress (1): 5.5/11 kBProgress (1): 8.3/11 kBProgress (1): 11/11 kB Progress (1): 11 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/com/thoughtworks/xstream/xstream/1.3.1/xstream-1.3.1.pom (11 kB at 572 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/thoughtworks/xstream/xstream-parent/1.3.1/xstream-parent-1.3.1.pom
+Progress (1): 4.1/14 kBProgress (1): 8.2/14 kBProgress (1): 12/14 kB Progress (1): 14 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/com/thoughtworks/xstream/xstream-parent/1.3.1/xstream-parent-1.3.1.pom (14 kB at 874 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/xpp3/xpp3_min/1.1.4c/xpp3_min-1.1.4c.pom
+Progress (1): 1.6 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/xpp3/xpp3_min/1.1.4c/xpp3_min-1.1.4c.pom (1.6 kB at 124 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/1.0-beta-2/maven-filtering-1.0-beta-2.pom
+Progress (1): 4.0 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/1.0-beta-2/maven-filtering-1.0-beta-2.pom (4.0 kB at 336 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/10/maven-shared-components-10.pom
+Progress (1): 4.1/8.4 kBProgress (1): 8.2/8.4 kBProgress (1): 8.4 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/10/maven-shared-components-10.pom (8.4 kB at 351 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.5.6/plexus-utils-1.5.6.pom
+Progress (1): 4.1/5.3 kBProgress (1): 5.3 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.5.6/plexus-utils-1.5.6.pom (5.3 kB at 252 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/1.0.12/plexus-1.0.12.pom
+Progress (1): 4.1/9.8 kBProgress (1): 8.2/9.8 kBProgress (1): 9.8 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/1.0.12/plexus-1.0.12.pom (9.8 kB at 544 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.6/plexus-interpolation-1.6.pom
+Progress (1): 2.9 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.6/plexus-interpolation-1.6.pom (2.9 kB at 153 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/2.5/maven-archiver-2.5.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.0.2/plexus-io-2.0.2.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.15/plexus-interpolation-1.15.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/2.1/plexus-archiver-2.1.jar
+Downloading from central: https://repo.maven.apache.org/maven2/com/thoughtworks/xstream/xstream/1.3.1/xstream-1.3.1.jar
+Progress (1): 4.1/22 kBProgress (1): 8.2/22 kBProgress (1): 12/22 kB Progress (1): 16/22 kBProgress (1): 20/22 kBProgress (1): 22 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/2.5/maven-archiver-2.5.jar (22 kB at 330 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/xpp3/xpp3_min/1.1.4c/xpp3_min-1.1.4c.jar
+Progress (1): 2.8/60 kBProgress (1): 5.5/60 kBProgress (1): 8.3/60 kBProgress (2): 8.3/60 kB | 2.8/58 kBProgress (2): 8.3/60 kB | 5.5/58 kBProgress (2): 8.3/60 kB | 8.3/58 kBProgress (3): 8.3/60 kB | 8.3/58 kB | 4.1/431 kBProgress (3): 8.3/60 kB | 8.3/58 kB | 8.2/431 kBProgress (3): 8.3/60 kB | 8.3/58 kB | 12/431 kB Progress (3): 8.3/60 kB | 11/58 kB | 12/431 kB Progress (3): 8.3/60 kB | 14/58 kB | 12/431 kBProgress (3): 8.3/60 kB | 17/58 kB | 12/431 kBProgress (4): 8.3/60 kB | 17/58 kB | 12/431 kB | 4.1/184 kBProgress (4): 11/60 kB | 17/58 kB | 12/431 kB | 4.1/184 kB Progress (4): 14/60 kB | 17/58 kB | 12/431 kB | 4.1/184 kBProgress (4): 17/60 kB | 17/58 kB | 12/431 kB | 4.1/184 kBProgress (5): 17/60 kB | 17/58 kB | 12/431 kB | 4.1/184 kB | 4.1/25 kBProgress (5): 17/60 kB | 17/58 kB | 16/431 kB | 4.1/184 kB | 4.1/25 kBProgress (5): 17/60 kB | 17/58 kB | 20/431 kB | 4.1/184 kB | 4.1/25 kBProgress (5): 17/60 kB | 17/58 kB | 25/431 kB | 4.1/184 kB | 4.1/25 kBProgress (5): 17/60 kB | 20/58 kB | 25/431 kB | 4.1/184 kB | 4.1/25 kBProgress (5): 17/60 kB | 23/58 kB | 25/431 kB | 4.1/184 kB | 4.1/25 kBProgress (5): 17/60 kB | 25/58 kB | 25/431 kB | 4.1/184 kB | 4.1/25 kBProgress (5): 17/60 kB | 28/58 kB | 25/431 kB | 4.1/184 kB | 4.1/25 kBProgress (5): 17/60 kB | 28/58 kB | 25/431 kB | 4.1/184 kB | 8.2/25 kBProgress (5): 17/60 kB | 28/58 kB | 25/431 kB | 4.1/184 kB | 12/25 kB Progress (5): 17/60 kB | 28/58 kB | 25/431 kB | 4.1/184 kB | 16/25 kBProgress (5): 17/60 kB | 28/58 kB | 25/431 kB | 8.2/184 kB | 16/25 kBProgress (5): 19/60 kB | 28/58 kB | 25/431 kB | 8.2/184 kB | 16/25 kBProgress (5): 19/60 kB | 28/58 kB | 25/431 kB | 12/184 kB | 16/25 kB Progress (5): 22/60 kB | 28/58 kB | 25/431 kB | 12/184 kB | 16/25 kBProgress (5): 22/60 kB | 28/58 kB | 29/431 kB | 12/184 kB | 16/25 kBProgress (5): 25/60 kB | 28/58 kB | 29/431 kB | 12/184 kB | 16/25 kBProgress (5): 28/60 kB | 28/58 kB | 29/431 kB | 12/184 kB | 16/25 kBProgress (5): 28/60 kB | 28/58 kB | 29/431 kB | 16/184 kB | 16/25 kBProgress (5): 28/60 kB | 28/58 kB | 29/431 kB | 20/184 kB | 16/25 kBProgress (5): 30/60 kB | 28/58 kB | 29/431 kB | 20/184 kB | 16/25 kBProgress (5): 30/60 kB | 31/58 kB | 29/431 kB | 20/184 kB | 16/25 kBProgress (5): 30/60 kB | 34/58 kB | 29/431 kB | 20/184 kB | 16/25 kBProgress (5): 30/60 kB | 36/58 kB | 29/431 kB | 20/184 kB | 16/25 kBProgress (5): 30/60 kB | 36/58 kB | 29/431 kB | 20/184 kB | 20/25 kBProgress (5): 30/60 kB | 36/58 kB | 33/431 kB | 20/184 kB | 20/25 kBProgress (5): 30/60 kB | 36/58 kB | 37/431 kB | 20/184 kB | 20/25 kBProgress (5): 30/60 kB | 36/58 kB | 41/431 kB | 20/184 kB | 20/25 kBProgress (5): 30/60 kB | 36/58 kB | 45/431 kB | 20/184 kB | 20/25 kBProgress (5): 30/60 kB | 36/58 kB | 49/431 kB | 20/184 kB | 20/25 kBProgress (5): 30/60 kB | 36/58 kB | 53/431 kB | 20/184 kB | 20/25 kBProgress (5): 30/60 kB | 36/58 kB | 53/431 kB | 25/184 kB | 20/25 kBProgress (5): 30/60 kB | 36/58 kB | 53/431 kB | 29/184 kB | 20/25 kBProgress (5): 33/60 kB | 36/58 kB | 53/431 kB | 29/184 kB | 20/25 kBProgress (5): 33/60 kB | 36/58 kB | 53/431 kB | 33/184 kB | 20/25 kBProgress (5): 33/60 kB | 36/58 kB | 53/431 kB | 37/184 kB | 20/25 kBProgress (5): 33/60 kB | 36/58 kB | 53/431 kB | 41/184 kB | 20/25 kBProgress (5): 33/60 kB | 39/58 kB | 53/431 kB | 41/184 kB | 20/25 kBProgress (5): 33/60 kB | 39/58 kB | 53/431 kB | 41/184 kB | 25/25 kBProgress (5): 33/60 kB | 39/58 kB | 53/431 kB | 41/184 kB | 25 kB   Progress (5): 33/60 kB | 42/58 kB | 53/431 kB | 41/184 kB | 25 kB                                                                 Downloaded from central: https://repo.maven.apache.org/maven2/xpp3/xpp3_min/1.1.4c/xpp3_min-1.1.4c.jar (25 kB at 169 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0/plexus-utils-3.0.jar
+Progress (4): 33/60 kB | 45/58 kB | 53/431 kB | 41/184 kBProgress (4): 33/60 kB | 48/58 kB | 53/431 kB | 41/184 kBProgress (4): 33/60 kB | 50/58 kB | 53/431 kB | 41/184 kBProgress (4): 33/60 kB | 53/58 kB | 53/431 kB | 41/184 kBProgress (4): 33/60 kB | 53/58 kB | 57/431 kB | 41/184 kBProgress (4): 36/60 kB | 53/58 kB | 57/431 kB | 41/184 kBProgress (4): 36/60 kB | 53/58 kB | 61/431 kB | 41/184 kBProgress (4): 36/60 kB | 53/58 kB | 66/431 kB | 41/184 kBProgress (5): 36/60 kB | 53/58 kB | 66/431 kB | 41/184 kB | 4.1/226 kBProgress (5): 36/60 kB | 53/58 kB | 66/431 kB | 45/184 kB | 4.1/226 kBProgress (5): 39/60 kB | 53/58 kB | 66/431 kB | 45/184 kB | 4.1/226 kBProgress (5): 39/60 kB | 53/58 kB | 66/431 kB | 49/184 kB | 4.1/226 kBProgress (5): 41/60 kB | 53/58 kB | 66/431 kB | 49/184 kB | 4.1/226 kBProgress (5): 44/60 kB | 53/58 kB | 66/431 kB | 49/184 kB | 4.1/226 kBProgress (5): 44/60 kB | 53/58 kB | 66/431 kB | 53/184 kB | 4.1/226 kBProgress (5): 47/60 kB | 53/58 kB | 66/431 kB | 53/184 kB | 4.1/226 kBProgress (5): 47/60 kB | 53/58 kB | 66/431 kB | 53/184 kB | 8.2/226 kBProgress (5): 47/60 kB | 53/58 kB | 66/431 kB | 57/184 kB | 8.2/226 kBProgress (5): 47/60 kB | 53/58 kB | 66/431 kB | 61/184 kB | 8.2/226 kBProgress (5): 47/60 kB | 53/58 kB | 66/431 kB | 66/184 kB | 8.2/226 kBProgress (5): 47/60 kB | 53/58 kB | 66/431 kB | 70/184 kB | 8.2/226 kBProgress (5): 47/60 kB | 53/58 kB | 66/431 kB | 70/184 kB | 12/226 kB Progress (5): 47/60 kB | 53/58 kB | 66/431 kB | 70/184 kB | 16/226 kBProgress (5): 47/60 kB | 53/58 kB | 66/431 kB | 70/184 kB | 20/226 kBProgress (5): 47/60 kB | 53/58 kB | 66/431 kB | 70/184 kB | 24/226 kBProgress (5): 47/60 kB | 53/58 kB | 66/431 kB | 70/184 kB | 28/226 kBProgress (5): 47/60 kB | 53/58 kB | 66/431 kB | 70/184 kB | 32/226 kBProgress (5): 47/60 kB | 56/58 kB | 66/431 kB | 70/184 kB | 32/226 kBProgress (5): 50/60 kB | 56/58 kB | 66/431 kB | 70/184 kB | 32/226 kBProgress (5): 50/60 kB | 58 kB | 66/431 kB | 70/184 kB | 32/226 kB   Progress (5): 52/60 kB | 58 kB | 66/431 kB | 70/184 kB | 32/226 kBProgress (5): 55/60 kB | 58 kB | 66/431 kB | 70/184 kB | 32/226 kBProgress (5): 58/60 kB | 58 kB | 66/431 kB | 70/184 kB | 32/226 kBProgress (5): 58/60 kB | 58 kB | 70/431 kB | 70/184 kB | 32/226 kBProgress (5): 58/60 kB | 58 kB | 74/431 kB | 70/184 kB | 32/226 kBProgress (5): 60 kB | 58 kB | 74/431 kB | 70/184 kB | 32/226 kB   Progress (5): 60 kB | 58 kB | 78/431 kB | 70/184 kB | 32/226 kBProgress (5): 60 kB | 58 kB | 82/431 kB | 70/184 kB | 32/226 kBProgress (5): 60 kB | 58 kB | 86/431 kB | 70/184 kB | 32/226 kBProgress (5): 60 kB | 58 kB | 90/431 kB | 70/184 kB | 32/226 kBProgress (5): 60 kB | 58 kB | 94/431 kB | 70/184 kB | 32/226 kBProgress (5): 60 kB | 58 kB | 98/431 kB | 70/184 kB | 32/226 kB                                                               Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.15/plexus-interpolation-1.15.jar (60 kB at 325 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/1.0-beta-2/maven-filtering-1.0-beta-2.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.0.2/plexus-io-2.0.2.jar (58 kB at 310 kB/s)
+Progress (3): 98/431 kB | 74/184 kB | 32/226 kBProgress (3): 98/431 kB | 78/184 kB | 32/226 kBProgress (3): 98/431 kB | 82/184 kB | 32/226 kBProgress (3): 98/431 kB | 86/184 kB | 32/226 kBProgress (3): 98/431 kB | 90/184 kB | 32/226 kBProgress (3): 98/431 kB | 94/184 kB | 32/226 kBProgress (3): 98/431 kB | 98/184 kB | 32/226 kBProgress (4): 98/431 kB | 98/184 kB | 32/226 kB | 4.1/33 kBProgress (4): 102/431 kB | 98/184 kB | 32/226 kB | 4.1/33 kBProgress (4): 106/431 kB | 98/184 kB | 32/226 kB | 4.1/33 kBProgress (4): 111/431 kB | 98/184 kB | 32/226 kB | 4.1/33 kBProgress (4): 115/431 kB | 98/184 kB | 32/226 kB | 4.1/33 kBProgress (4): 119/431 kB | 98/184 kB | 32/226 kB | 4.1/33 kBProgress (4): 119/431 kB | 98/184 kB | 36/226 kB | 4.1/33 kBProgress (4): 119/431 kB | 98/184 kB | 40/226 kB | 4.1/33 kBProgress (4): 119/431 kB | 98/184 kB | 44/226 kB | 4.1/33 kBProgress (4): 119/431 kB | 98/184 kB | 49/226 kB | 4.1/33 kBProgress (4): 119/431 kB | 98/184 kB | 53/226 kB | 4.1/33 kBProgress (4): 119/431 kB | 98/184 kB | 57/226 kB | 4.1/33 kBProgress (4): 119/431 kB | 98/184 kB | 61/226 kB | 4.1/33 kBProgress (4): 119/431 kB | 98/184 kB | 65/226 kB | 4.1/33 kBProgress (4): 119/431 kB | 98/184 kB | 69/226 kB | 4.1/33 kBProgress (4): 119/431 kB | 98/184 kB | 73/226 kB | 4.1/33 kBProgress (4): 119/431 kB | 98/184 kB | 77/226 kB | 4.1/33 kBProgress (4): 119/431 kB | 102/184 kB | 77/226 kB | 4.1/33 kBProgress (4): 119/431 kB | 102/184 kB | 77/226 kB | 8.2/33 kBProgress (4): 119/431 kB | 106/184 kB | 77/226 kB | 8.2/33 kBProgress (4): 119/431 kB | 111/184 kB | 77/226 kB | 8.2/33 kBProgress (4): 119/431 kB | 115/184 kB | 77/226 kB | 8.2/33 kBProgress (4): 119/431 kB | 119/184 kB | 77/226 kB | 8.2/33 kBProgress (4): 123/431 kB | 119/184 kB | 77/226 kB | 8.2/33 kBProgress (4): 127/431 kB | 119/184 kB | 77/226 kB | 8.2/33 kBProgress (4): 131/431 kB | 119/184 kB | 77/226 kB | 8.2/33 kBProgress (4): 135/431 kB | 119/184 kB | 77/226 kB | 8.2/33 kBProgress (4): 139/431 kB | 119/184 kB | 77/226 kB | 8.2/33 kBProgress (4): 143/431 kB | 119/184 kB | 77/226 kB | 8.2/33 kBProgress (4): 147/431 kB | 119/184 kB | 77/226 kB | 8.2/33 kBProgress (4): 152/431 kB | 119/184 kB | 77/226 kB | 8.2/33 kBProgress (4): 152/431 kB | 123/184 kB | 77/226 kB | 8.2/33 kBProgress (4): 152/431 kB | 127/184 kB | 77/226 kB | 8.2/33 kBProgress (4): 152/431 kB | 131/184 kB | 77/226 kB | 8.2/33 kBProgress (4): 152/431 kB | 135/184 kB | 77/226 kB | 8.2/33 kBProgress (4): 152/431 kB | 135/184 kB | 81/226 kB | 8.2/33 kBProgress (4): 152/431 kB | 135/184 kB | 81/226 kB | 12/33 kB Progress (4): 152/431 kB | 135/184 kB | 81/226 kB | 16/33 kBProgress (4): 152/431 kB | 135/184 kB | 85/226 kB | 16/33 kBProgress (4): 152/431 kB | 135/184 kB | 90/226 kB | 16/33 kBProgress (4): 152/431 kB | 135/184 kB | 90/226 kB | 20/33 kBProgress (4): 152/431 kB | 135/184 kB | 94/226 kB | 20/33 kBProgress (4): 152/431 kB | 135/184 kB | 94/226 kB | 25/33 kBProgress (4): 152/431 kB | 135/184 kB | 98/226 kB | 25/33 kBProgress (4): 152/431 kB | 135/184 kB | 98/226 kB | 29/33 kBProgress (4): 152/431 kB | 135/184 kB | 98/226 kB | 33/33 kBProgress (4): 152/431 kB | 135/184 kB | 98/226 kB | 33 kB   Progress (4): 156/431 kB | 135/184 kB | 98/226 kB | 33 kBProgress (4): 160/431 kB | 135/184 kB | 98/226 kB | 33 kBProgress (4): 164/431 kB | 135/184 kB | 98/226 kB | 33 kBProgress (4): 168/431 kB | 135/184 kB | 98/226 kB | 33 kBProgress (4): 168/431 kB | 139/184 kB | 98/226 kB | 33 kB                                                         Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/1.0-beta-2/maven-filtering-1.0-beta-2.jar (33 kB at 141 kB/s)
+Progress (3): 168/431 kB | 143/184 kB | 98/226 kBProgress (3): 168/431 kB | 147/184 kB | 98/226 kBProgress (3): 168/431 kB | 152/184 kB | 98/226 kBProgress (3): 168/431 kB | 156/184 kB | 98/226 kBProgress (3): 168/431 kB | 156/184 kB | 102/226 kBProgress (3): 168/431 kB | 156/184 kB | 106/226 kBProgress (3): 168/431 kB | 156/184 kB | 110/226 kBProgress (3): 168/431 kB | 156/184 kB | 114/226 kBProgress (3): 168/431 kB | 156/184 kB | 118/226 kBProgress (3): 168/431 kB | 156/184 kB | 122/226 kBProgress (3): 168/431 kB | 156/184 kB | 126/226 kBProgress (3): 168/431 kB | 156/184 kB | 130/226 kBProgress (3): 168/431 kB | 156/184 kB | 135/226 kBProgress (3): 172/431 kB | 156/184 kB | 135/226 kBProgress (3): 176/431 kB | 156/184 kB | 135/226 kBProgress (3): 180/431 kB | 156/184 kB | 135/226 kBProgress (3): 184/431 kB | 156/184 kB | 135/226 kBProgress (3): 188/431 kB | 156/184 kB | 135/226 kBProgress (3): 188/431 kB | 160/184 kB | 135/226 kBProgress (3): 188/431 kB | 164/184 kB | 135/226 kBProgress (3): 188/431 kB | 168/184 kB | 135/226 kBProgress (3): 188/431 kB | 172/184 kB | 135/226 kBProgress (3): 188/431 kB | 176/184 kB | 135/226 kBProgress (3): 188/431 kB | 180/184 kB | 135/226 kBProgress (3): 188/431 kB | 184/184 kB | 135/226 kBProgress (3): 188/431 kB | 184 kB | 135/226 kB    Progress (3): 188/431 kB | 184 kB | 139/226 kBProgress (3): 188/431 kB | 184 kB | 143/226 kBProgress (3): 193/431 kB | 184 kB | 143/226 kBProgress (3): 197/431 kB | 184 kB | 143/226 kBProgress (3): 201/431 kB | 184 kB | 143/226 kBProgress (3): 205/431 kB | 184 kB | 143/226 kBProgress (3): 209/431 kB | 184 kB | 143/226 kBProgress (3): 213/431 kB | 184 kB | 143/226 kBProgress (3): 213/431 kB | 184 kB | 147/226 kB                                              Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/2.1/plexus-archiver-2.1.jar (184 kB at 691 kB/s)
+Progress (2): 213/431 kB | 151/226 kBProgress (2): 213/431 kB | 155/226 kBProgress (2): 213/431 kB | 159/226 kBProgress (2): 213/431 kB | 163/226 kBProgress (2): 213/431 kB | 167/226 kBProgress (2): 213/431 kB | 171/226 kBProgress (2): 213/431 kB | 176/226 kBProgress (2): 213/431 kB | 180/226 kBProgress (2): 213/431 kB | 184/226 kBProgress (2): 217/431 kB | 184/226 kBProgress (2): 221/431 kB | 184/226 kBProgress (2): 225/431 kB | 184/226 kBProgress (2): 229/431 kB | 184/226 kBProgress (2): 233/431 kB | 184/226 kBProgress (2): 238/431 kB | 184/226 kBProgress (2): 242/431 kB | 184/226 kBProgress (2): 246/431 kB | 184/226 kBProgress (2): 250/431 kB | 184/226 kBProgress (2): 254/431 kB | 184/226 kBProgress (2): 254/431 kB | 188/226 kBProgress (2): 254/431 kB | 192/226 kBProgress (2): 254/431 kB | 196/226 kBProgress (2): 254/431 kB | 200/226 kBProgress (2): 254/431 kB | 204/226 kBProgress (2): 254/431 kB | 208/226 kBProgress (2): 254/431 kB | 212/226 kBProgress (2): 254/431 kB | 217/226 kBProgress (2): 254/431 kB | 221/226 kBProgress (2): 254/431 kB | 225/226 kBProgress (2): 254/431 kB | 226 kB    Progress (2): 258/431 kB | 226 kBProgress (2): 262/431 kB | 226 kBProgress (2): 266/431 kB | 226 kBProgress (2): 270/431 kB | 226 kBProgress (2): 274/431 kB | 226 kBProgress (2): 279/431 kB | 226 kBProgress (2): 283/431 kB | 226 kBProgress (2): 287/431 kB | 226 kBProgress (2): 291/431 kB | 226 kB                                 Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0/plexus-utils-3.0.jar (226 kB at 734 kB/s)
+Progress (1): 295/431 kBProgress (1): 299/431 kBProgress (1): 303/431 kBProgress (1): 307/431 kBProgress (1): 311/431 kBProgress (1): 315/431 kBProgress (1): 319/431 kBProgress (1): 324/431 kBProgress (1): 328/431 kBProgress (1): 332/431 kBProgress (1): 336/431 kBProgress (1): 340/431 kBProgress (1): 344/431 kBProgress (1): 348/431 kBProgress (1): 352/431 kBProgress (1): 356/431 kBProgress (1): 360/431 kBProgress (1): 365/431 kBProgress (1): 369/431 kBProgress (1): 373/431 kBProgress (1): 377/431 kBProgress (1): 381/431 kBProgress (1): 385/431 kBProgress (1): 389/431 kBProgress (1): 393/431 kBProgress (1): 397/431 kBProgress (1): 401/431 kBProgress (1): 406/431 kBProgress (1): 410/431 kBProgress (1): 414/431 kBProgress (1): 418/431 kBProgress (1): 422/431 kBProgress (1): 426/431 kBProgress (1): 430/431 kBProgress (1): 431 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/com/thoughtworks/xstream/xstream/1.3.1/xstream-1.3.1.jar (431 kB at 1.3 MB/s)
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.thoughtworks.xstream.core.util.Fields (file:/var/lib/jenkins/.m2/repository/com/thoughtworks/xstream/xstream/1.3.1/xstream-1.3.1.jar) to field java.util.Properties.defaults
+WARNING: Please consider reporting this to the maintainers of com.thoughtworks.xstream.core.util.Fields
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[[1;34mINFO[m] Packaging webapp
+[[1;34mINFO[m] Assembling webapp [addressbook] in [/var/lib/jenkins/workspace/package/target/addressbook]
+[[1;34mINFO[m] Processing war project
+[[1;34mINFO[m] Webapp assembled in [247 msecs]
+[[1;34mINFO[m] Building war: /var/lib/jenkins/workspace/package/target/addressbook.war
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  11.268 s
+[[1;34mINFO[m] Finished at: 2024-03-27T17:44:06Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+Finished: SUCCESS

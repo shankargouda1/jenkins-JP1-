@@ -1,0 +1,42 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@1400.v7fd111b_ec82f">
+  <actions>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobAction plugin="pipeline-model-definition@2.2184.v0b_358b_953e69"/>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction plugin="pipeline-model-definition@2.2184.v0b_358b_953e69">
+      <jobProperties/>
+      <triggers/>
+      <parameters/>
+      <options/>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction>
+  </actions>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@3889.v937e0b_3412d3">
+    <script>def sample_array = [ &quot;mvn compile&quot;, &quot;mvn test&quot; ]
+pipeline{
+    agent any
+    stages{
+        stage(&quot;checkout the code from github&quot;){
+            steps{
+                git url:&apos;https://github.com/shankargouda1/cicdakshat&apos;
+            }
+        }
+        stage(&quot;code compile&quot;){
+            steps{
+                sh &quot;${sample_array[0]}&quot;
+                echo &quot;compiling is done&quot;
+            }
+        }
+        stage(&quot;code testing&quot;){
+            steps{
+                sh &quot;${sample_array[1]}&quot;
+            }    
+        }        
+    }
+}    </script>
+    <sandbox>true</sandbox>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>

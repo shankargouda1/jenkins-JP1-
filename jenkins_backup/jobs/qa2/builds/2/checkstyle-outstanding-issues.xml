@@ -1,0 +1,250 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<analysisReport plugin="analysis-model-api@12.1.0">
+  <id>-</id>
+  <name>-</name>
+  <originReportFile>-</originReportFile>
+  <subReports>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/lib/jenkins/workspace/qa2/target/checkstyle-result.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set">
+        <issue>
+          <category>Javadoc</category>
+          <type>JavadocPackageCheck</type>
+          <severity>ERROR</severity>
+          <lineStart>1</lineStart>
+          <lineEnd>1</lineEnd>
+          <columnStart>0</columnStart>
+          <columnEnd>0</columnEnd>
+          <lineRanges/>
+          <id>383a1a12-c214-4983-975f-3bfc4a31e524</id>
+          <reference>2</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>devops-integration</moduleName>
+          <packageName>com.truelearning</packageName>
+          <pathName>/var/lib/jenkins/workspace/qa2</pathName>
+          <fileName>src/main/java/com/truelearning/DevopsIntegrationApplication.java</fileName>
+          <message>Missing package-info.java file.</message>
+          <description></description>
+          <fingerprint>17879D31D20485070B2C5424B6968B83</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Whitespace</category>
+          <type>FileTabCharacterCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>12</lineStart>
+          <lineEnd>12</lineEnd>
+          <columnStart>1</columnStart>
+          <columnEnd>1</columnEnd>
+          <lineRanges/>
+          <id>05d421a1-b99b-47f6-99b8-91badc565438</id>
+          <reference>2</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>devops-integration</moduleName>
+          <packageName reference="../../issue/packageName"/>
+          <pathName>/var/lib/jenkins/workspace/qa2</pathName>
+          <fileName reference="../../issue/fileName"/>
+          <message>File contains tab characters (this is the first instance).</message>
+          <description></description>
+          <fingerprint>D75304D89E9653FCA2B3FEDE5057E71E</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Design</category>
+          <type>DesignForExtensionCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>12</lineStart>
+          <lineEnd>12</lineEnd>
+          <columnStart>9</columnStart>
+          <columnEnd>9</columnEnd>
+          <lineRanges/>
+          <id>eee59b05-76c8-47f6-beba-8878e46e6f76</id>
+          <reference>2</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>devops-integration</moduleName>
+          <packageName reference="../../issue/packageName"/>
+          <pathName>/var/lib/jenkins/workspace/qa2</pathName>
+          <fileName reference="../../issue/fileName"/>
+          <message>Class &apos;DevopsIntegrationApplication&apos; looks like designed for extension (can be subclassed), but the method &apos;message&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;DevopsIntegrationApplication&apos; final or making the method &apos;message&apos; static/final/abstract/empty, or adding allowed annotation for the method.</message>
+          <description></description>
+          <fingerprint>D75304D89E9653FCA2B3FEDE5057E71E</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Javadoc</category>
+          <type>MissingJavadocMethodCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>12</lineStart>
+          <lineEnd>12</lineEnd>
+          <columnStart>9</columnStart>
+          <columnEnd>9</columnEnd>
+          <lineRanges/>
+          <id>72626627-0aae-4920-a73f-f16a17590c0c</id>
+          <reference>2</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>devops-integration</moduleName>
+          <packageName reference="../../issue/packageName"/>
+          <pathName>/var/lib/jenkins/workspace/qa2</pathName>
+          <fileName reference="../../issue/fileName"/>
+          <message>Missing a Javadoc comment.</message>
+          <description></description>
+          <fingerprint>D75304D89E9653FCA2B3FEDE5057E71E</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Whitespace</category>
+          <type>WhitespaceAroundCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>13</lineStart>
+          <lineEnd>13</lineEnd>
+          <columnStart>32</columnStart>
+          <columnEnd>32</columnEnd>
+          <lineRanges/>
+          <id>39df6db7-ce50-464a-a7e0-8c5f2676cbd8</id>
+          <reference>2</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>devops-integration</moduleName>
+          <packageName reference="../../issue/packageName"/>
+          <pathName>/var/lib/jenkins/workspace/qa2</pathName>
+          <fileName reference="../../issue/fileName"/>
+          <message>&apos;{&apos; is not preceded with whitespace.</message>
+          <description></description>
+          <fingerprint>F34337CE13E0AE4B14BEDB2ED8645348</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Javadoc</category>
+          <type>MissingJavadocMethodCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>17</lineStart>
+          <lineEnd>17</lineEnd>
+          <columnStart>9</columnStart>
+          <columnEnd>9</columnEnd>
+          <lineRanges/>
+          <id>36fe8b66-2f48-431b-a704-4b9a164c42ae</id>
+          <reference>2</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>devops-integration</moduleName>
+          <packageName reference="../../issue/packageName"/>
+          <pathName>/var/lib/jenkins/workspace/qa2</pathName>
+          <fileName reference="../../issue/fileName"/>
+          <message reference="../../issue[4]/message"/>
+          <description></description>
+          <fingerprint>9E447836712AA83EBB63A57F0FD3E650</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Checks</category>
+          <type>FinalParametersCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>17</lineStart>
+          <lineEnd>17</lineEnd>
+          <columnStart>33</columnStart>
+          <columnEnd>33</columnEnd>
+          <lineRanges/>
+          <id>291c07d2-ce66-4441-9787-ae42847769d4</id>
+          <reference>2</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>devops-integration</moduleName>
+          <packageName reference="../../issue/packageName"/>
+          <pathName>/var/lib/jenkins/workspace/qa2</pathName>
+          <fileName reference="../../issue/fileName"/>
+          <message>Parameter args should be final.</message>
+          <description></description>
+          <fingerprint>9E447836712AA83EBB63A57F0FD3E650</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Checks</category>
+          <type>NewlineAtEndOfFileCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>1</lineStart>
+          <lineEnd>1</lineEnd>
+          <columnStart>0</columnStart>
+          <columnEnd>0</columnEnd>
+          <lineRanges/>
+          <id>aa15a11d-d4d1-41c3-b6d1-abed21209ea4</id>
+          <reference>2</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>devops-integration</moduleName>
+          <packageName>-</packageName>
+          <pathName>/var/lib/jenkins/workspace/qa2</pathName>
+          <fileName>src/main/resources/application.properties</fileName>
+          <message>File does not end with a newline.</message>
+          <description></description>
+          <fingerprint>D41D8CD98F00B204E9800998ECF8427E</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+      </elements>
+      <infoMessages>
+        <string>Searching for all files in &apos;/var/lib/jenkins/workspace/qa2&apos; that match the pattern &apos;**/checkstyle-result.xml&apos;</string>
+        <string>Traversing of symbolic links: enabled</string>
+        <string>-&gt; found 1 file</string>
+        <string>Successfully parsed file /var/lib/jenkins/workspace/qa2/target/checkstyle-result.xml</string>
+        <string>-&gt; found 8 issues (skipped 0 duplicates)</string>
+        <string>Successfully processed file &apos;target/checkstyle-result.xml&apos;</string>
+        <string>Post processing issues on &apos;Master&apos; with source code encoding &apos;UTF-8&apos;</string>
+        <string>Creating SCM blamer to obtain author and commit information for affected files</string>
+        <string>-&gt; No blamer installed yet. You need to install the &apos;git-forensics&apos; plugin to enable blaming for Git.</string>
+        <string>Resolving file names for all issues in workspace &apos;/var/lib/jenkins/workspace/qa2&apos;</string>
+        <string>-&gt; resolved paths in source directory (2 found, 0 not found)</string>
+        <string>Resolving module names from module definitions (build.xml, pom.xml, or Manifest.mf files)</string>
+        <string>-&gt; resolved module names for 8 issues</string>
+        <string>Resolving package names (or namespaces) by parsing the affected files</string>
+        <string>-&gt; resolved package names of 2 affected files</string>
+        <string>No filter has been set, publishing all 8 issues</string>
+        <string>Creating fingerprints for all affected code blocks to track issues over different builds</string>
+        <string>-&gt; created fingerprints for 8 issues (skipped 0 issues)</string>
+      </infoMessages>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+  </subReports>
+  <elements class="linked-hash-set"/>
+  <infoMessages>
+    <string>Searching for all files in &apos;/var/lib/jenkins/workspace/qa2&apos; that match the pattern &apos;**/checkstyle-result.xml&apos;</string>
+    <string>Traversing of symbolic links: enabled</string>
+    <string>-&gt; found 1 file</string>
+    <string>Successfully parsed file /var/lib/jenkins/workspace/qa2/target/checkstyle-result.xml</string>
+    <string>-&gt; found 8 issues (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;target/checkstyle-result.xml&apos;</string>
+    <string>Post processing issues on &apos;Master&apos; with source code encoding &apos;UTF-8&apos;</string>
+    <string>Creating SCM blamer to obtain author and commit information for affected files</string>
+    <string>-&gt; No blamer installed yet. You need to install the &apos;git-forensics&apos; plugin to enable blaming for Git.</string>
+    <string>Resolving file names for all issues in workspace &apos;/var/lib/jenkins/workspace/qa2&apos;</string>
+    <string>-&gt; resolved paths in source directory (2 found, 0 not found)</string>
+    <string>Resolving module names from module definitions (build.xml, pom.xml, or Manifest.mf files)</string>
+    <string>-&gt; resolved module names for 8 issues</string>
+    <string>Resolving package names (or namespaces) by parsing the affected files</string>
+    <string>-&gt; resolved package names of 2 affected files</string>
+    <string>No filter has been set, publishing all 8 issues</string>
+    <string>Creating fingerprints for all affected code blocks to track issues over different builds</string>
+    <string>-&gt; created fingerprints for 8 issues (skipped 0 issues)</string>
+    <string>Copying affected files to Jenkins&apos; build folder &apos;/var/lib/jenkins/jobs/qa2/builds/2/files-with-issues&apos;</string>
+    <string>-&gt; 2 copied, 0 not in workspace, 0 not-found, 0 with I/O error</string>
+    <string>Deleting source code files of build #1</string>
+    <string>Repository miner is not configured, skipping repository mining</string>
+    <string>Reference build recorder is not configured</string>
+    <string>No valid reference build found</string>
+    <string>All reported issues will be considered outstanding</string>
+    <string>No quality gates have been set - skipping</string>
+    <string>Health report is disabled - skipping</string>
+    <string>Created analysis result for 8 issues (found 0 new issues, fixed 0 issues)</string>
+    <string>Attaching ResultAction with ID &apos;checkstyle&apos; to build &apos;qa2 #2&apos;.</string>
+  </infoMessages>
+  <errorMessages/>
+  <countersByKey/>
+  <duplicatesSize>0</duplicatesSize>
+</analysisReport>
